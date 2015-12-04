@@ -1,534 +1,383 @@
-<!DOCTYPE html>
-<html lang="en">
-
+<!doctype html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Larry Weru</title>
-    <!-- <link rel="icon" type="image/x-icon" href="assets/images/favicons/favicon.ico" /> -->
-    <!-- <link rel="icon" type="image/png" href="assets/images/favicons/favicon.png" /> -->
-    <!-- For iPhone 4 Retina display: -->
-    <!-- <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/images/favicons/apple-touch-icon-114x114-precomposed.png"> -->
-    <!-- For iPad: -->
-    <!-- <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/images/favicons/apple-touch-icon-72x72-precomposed.png"> -->
-    <!-- For iPhone: -->
-    <!-- <link rel="apple-touch-icon-precomposed" href="assets/images/favicons/apple-touch-icon-60x60-precomposed.png"> -->
-    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,400italic' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/theme.min.css">
-    <link rel="stylesheet" href="assets/css/color-defaults.min.css">
-    <link rel="stylesheet" href="assets/css/swatch-beige-black.min.css">
-    <!-- <link rel="stylesheet" href="assets/css/swatch-black-beige.min.css"> -->
-    <!-- <link rel="stylesheet" href="assets/css/swatch-black-white.min.css"> -->
-    <!-- <link rel="stylesheet" href="assets/css/swatch-black-yellow.min.css"> -->
-    <!-- <link rel="stylesheet" href="assets/css/swatch-blue-white.min.css"> -->
-    <!-- <link rel="stylesheet" href="assets/css/swatch-green-white.min.css"> -->
-    <link rel="stylesheet" href="assets/css/swatch-red-white.min.css">
-    <!-- <link rel="stylesheet" href="assets/css/swatch-white-black.min.css"> -->
-    <!-- <link rel="stylesheet" href="assets/css/swatch-white-blue.min.css"> -->
-    <!-- <link rel="stylesheet" href="assets/css/swatch-white-green.min.css"> -->
-    <link rel="stylesheet" href="assets/css/swatch-white-red.min.css">
-    <!-- <link rel="stylesheet" href="assets/css/swatch-yellow-black.min.css"> -->
-    <link rel="stylesheet" href="assets/css/fonts.min.css" media="screen">
-    <style type="text/css">
-        .shadowed {
-            -webkit-filter: drop-shadow(12px 12px 6px rgba(0, 0, 0, 0.3));
-            filter: url(#drop-shadow);
-            -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
-            filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
-        }
-        #masthead {
-            /*box-shadow: none;*/
-            background: rgba(255, 255, 255, 1);
-        }
-        .navbar-scrolled,
-        [class*=swatch-].navbar-scrolled {
-            webkit-box-shadow: 0 1px 0 rgba(235, 235, 235, .3);
-            -moz-box-shadow: 0 1px 0 rgba(235, 235, 235, .3);
-            box-shadow: 0 1px 0 rgba(235, 235, 235, .3);
-        }
-        .logo_text {
-            font-weight: 300;
-        }
-        .boldish {
-            font-weight: 300;
-        }
-        .bolder {
-/*            font-weight: 400;*/
-        }
-        .left {
-            text-align: left;
-        }
-        .section-header {
-            margin: 0 auto 40px;
-        }
-        .section-header .headline {
-            margin-top: 20px;
-        }
-    </style>
-</head>
-
-<body>
-    <header id="masthead" class="navbar navbar-sticky swatch-white-red" role="banner">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".main-navbar">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a href="#section_top" class="navbar-brand">
-                    <img src="img/l_weru_sig_logo_grey_sm.png" style="max-height:35px;" />
-                </a>
-            </div>
-            <nav class="collapse navbar-collapse main-navbar" role="navigation">                
-                <ul class="nav navbar-nav navbar-right">
-                    <li >
-                        <a href="#section_top"> Home </a>
-                    </li>
-                    <li >
-                        <a href="#section_skills"> Passions </a>
-                    </li>
-                    <li>
-                        <a href="#section_work">Recent Work</a>
-                    </li>
-                    <li >
-                        <a href="#section_commotion"> Commotion </a>
-                    </li>
-                    <li class="dropdown ">
-                        <a href="#section_footer"> Contact </a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <div id="content" role="main">
-        <section class="section swatch-white-red" id="section_top">
-            <div class="container">
-                <header class="section-header underline">
-
-                    <img src="img/lw_mesh_trans_broke_sq.png" style="max-width:300px" class="shadowed" />
-                    <br/>
-                    <h1 class="headline hyper hairline">Larry Weru</h1>
-                    <p class="big">
-                        <span class="bolder">
-                            Programmer</span>.<span class="bolder"> Artist</span>.<span class="bolder"> Biologist</span>.<span class="bolder"><br/>
-                            </span>
-                        <span style="display: block; margin-top:10px">
-                                Founder of <a class="bolder" target="_blank" href="https://www.lobbyq.com">LobbyQ</a>
-                            </span>
-                    </p>
-                </header>
-            </div>
-        </section>
-        <section class="section swatch-red-white has-top" id="section_skills">
-            <div class="decor-top">
-                <svg class="decor" height="120px" preserveaspectratio="none" style="height: 120px !important;" version="1.1" viewbox="0 0 100 100" width="240px" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M0 100 L50 0 L100 100" stroke-width="0"></path>
-                </svg>
-            </div>
-            <div class="container">
-                <header class="section-header underline">
-                    <h1 class="headline super boldish">Passions</h1>
-                    <!-- <p class="">Angle is a uniquely designed wordpress theme. It&#x27;s super easy to modify and uses advanced CSS techniques built on the latest Bootstrap Framework.</p> -->
-                </header>
-                <div class="row">
-                    <ul class="list-unstyled row box-list ">
-                        <li class="col-md-4 text-center os-animation" data-os-animation="fadeInUp" data-os-animation-delay=".0s">
-                            <div class="box-round">
-                                <div class="box-dummy"></div>
-                                <span class="box-inner " >
-                                	<img class="svg-inject" src="img/terminal10.png" alt="a clock" data-animation="" />
-                                </span>
-                            </div>
-
-                            <h1 class="text-center "> Web / Programming </h1>
-
-                            <p class="text-justify">I made my first website when I was 12, and continue to enjoy web development. Databases, application servers, and thin clients are my 3 best friends.</p>
-                            <ul class="left bold">
-                                <li>JavaScript (ES5, incl. JQuery + other libs)</li>
-                                <li>PHP</li>
-                                <li>C# / ASP.NET</li>
-                                <li>Meteor (Node.js)</li>
-                                <li>HTML</li>
-                                <li>CSS</li>
-                                <li>SciLab</li>                                        <li>SQL</li>
-                                <li>MongoDB (NoSQL)</li>
-                            </ul>
-                        </li>
-
-                        <li class="col-md-4 text-center os-animation" data-os-animation="fadeInUp" data-os-animation-delay=".3s">
-                            <div class="box-round">
-                                <div class="box-dummy"></div>
-                                <span class="box-inner ">
-                                	<img class="svg-inject" src="img/pencil_flat.png" alt="a clock" data-animation="" />
-                                </span>
-                            </div>
-
-                            <h1 class="text-center "> Illustration &amp; Design </h1>
-
-                            <p class="text-justify">
-                                Before I could speak, I could draw. I hold a B.A. in Studio Art from Florida State University, where I was bred to be proficient in classical &amp; digital media.
-                            </p>
-                            <ul class="left bold">
-                            	<li>Dry media (graphite, chalk, pastel, etc)</li>
-                                <li>Wet media (watercolor, acrylic, oil)</li>
-                                <li>Metalworking &amp; Ceramics</li>
-                                <li>Concept art</li>
-                                <li>UX Design</li>                                
-                                <li>3D modeling</li>
-                                <li>Digital Painting</li>
-                                <li>Book Cover Design</li>
-                            </ul>
-                        </li>
-
-                        <li class="col-md-4 text-center os-animation" data-os-animation="fadeInUp" data-os-animation-delay=".6s">
-                            <div class="box-round">
-                                <div class="box-dummy"></div>
-                                <span class="box-inner " >
-                                	<img class="svg-inject" src="img/187px-Same_color_illusion_proof2.png" alt="a clock" data-animation="" />
-                                </span>
-                            </div>
-
-                            <h1 class="text-center "> Philosphy of Vision </h1>
-
-                            <p class="text-justify">
-                                I'm best known for pioneering the "Neutralizing" color-mapping algorithm, which I cover over at <a href="https://medium.com/matter/the-trouble-with-the-purple-election-map-31e6cb9f1827">Medium.com</a> (80,000 reads). This contribution has been featured on the front page of <a href="https://www.reddit.com/r/dataisbeautiful/comments/2gde0v/the_problem_with_the_purple_election_map_and_why/#sthash.5ntxFYv6.dpuf">Reddit</a>, as well as <a href="www.fastcodesign.com/3035951/the-glaring-design-flaw-in-us-election-maps">Fast Company</a>. <br/><br/>
-
-                                I'm concerned with the nature of perception. In particular, how perceptual experience relates to beliefs about reality. I hold a B.S. in Biological Science from Florida State University with specific interests in Bio-Physics, Optics, &amp; Colour Vision.
-                            </p>
-                        </li>
-                        <!-- <li class="col-md-3 text-center os-animation" data-os-animation="fadeInUp" data-os-animation-delay=".9s">
-                                <div class="box-round">
-                                    <div class="box-dummy"></div>
-                                    <a class="box-inner " href="single-service.html">
-                                        <img class="svg-inject" src="assets/images/design/custom-icons/custom-icon-clipboard.png" alt="a clock" data-animation="" />
-                                    </a>
-                                </div>
-                                <h3 class="text-center ">
+    <meta charset="utf-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link rel="shortcut icon" type="image/png" href="favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+    <link rel="stylesheet" id="ppstyle" type="text/css" href="style.css">
+    <link rel='stylesheet' href='./css/animate.css' /><link rel='stylesheet' href='./css/font-awesome.min.css'/><link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <script src="./js/jquery-2.1.0.min.js"></script>
+    <script src="./js/bootstrap.js"></script>
+    <script src="./js/blocs.js"></script>
     
-								        <a href="single-service.html">
-								    
-								        100% support
-								    
-								        </a>
-								    
-								</h3>
-                                <p class="text-center">With Angle as with all our themes you will receive our 100% rock solid support.</p>
-                            </li> -->
-                    </ul>
-                </div>
-            </div>
-        </section>
-         <section class="section swatch-white-red has-top" id="section_work">
-            <div class="decor-top">
-                <svg class="decor" height="100%" preserveaspectratio="none" version="1.1" viewbox="0 0 100 100" width="100%" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M0 100 L100 0 L100 100" stroke-width="0"></path>
-                </svg>
-            </div>
-            <div class="container">
-                <header class="section-header text-center underline">
-                    <h1 class="headline super boldish">Recent Clients &amp; Work</h1>
-                </header>
-                <div class="text-default os-animation" data-os-animation="fadeInUp" data-os-animation-delay=".0s">
-                    <ul class="isotope-filters text-center">
-                        <li class="active">
-                            <a class="pseudo-border active" data-filter="*" href="#">   all
-                </a>
-                        </li>
-                        <li>
-                            <a class="pseudo-border" data-filter=".filter-webdev" href="#">Web Dev</a>
-                        </li>
-                        <li>
-                            <a class="pseudo-border" data-filter=".filter-illustration" href="#">Illustration</a>
-                        </li>
-                        <li>
-                            <a class="pseudo-border" data-filter=".filter-consulting" href="#">Consulting</a>
-                        </li>
-                    </ul>
-                    <div class="portfolio isotope no-transition portfolio-rect portfolio-shadows row">
-                        
-                        <div class="portfolio-item infinite-item col-md-4 col-sm-4 filter-webdev filter-illustration">
-                            <figure class="portfolio-figure">
-                                <a href="portfolio-item-aq.html">
-                                    <img width="600" height="518" src="img/portfolio/aq/aq-600x518.png" class="img-responsive" alt="some image">
-                                </a>
-                                <figcaption>
-                                    <h4>
-                            <a href="portfolio-item-aq.html">
-                                AstroQueue
-                            </a>
-                        </h4>
-                                    <p>Web-based digital queueing app.</p>
-                                    
-                                    <a class="link" href="portfolio-item-aq.html">
-                                        <i class="fa fa-link"></i>
-                                    </a>
-                                </figcaption>
-                            </figure>
-                        </div>
-                        
-                        <div class="portfolio-item infinite-item col-md-4 col-sm-4 filter-webdev">
-                            <figure class="portfolio-figure">
-                                <a href="portfolio-item-gl.html">
-                                    <img width="600" height="518" src="img/portfolio/greenlight/gl-600x518.png" class="img-responsive" alt="some image">
-                                </a>
-                                <figcaption>
-                                    <h4>
-                            <a href="portfolio-item-gl.html">
-                                GREENLIGHT&reg; (Datamaxx) Contracted Project
-                            </a>
-                        </h4>
-                                    <p>Secure Access Control</p>
-                                    
-                                    <a class="link" href="portfolio-item-gl.html">
-                                        <i class="fa fa-link"></i>
-                                    </a>
-                                </figcaption>
-                            </figure>
-                        </div>
-                        
-                        <div class="portfolio-item infinite-item col-md-4 col-sm-4 filter-consulting filter-illustration">
-                            <figure class="portfolio-figure">
-                                <a href="portfolio-item-mddg.html">
-                                    <img width="600" height="518" src="img/portfolio/mddg/mddg2-600x518.png" class="img-responsive" alt="some image">
-                                </a>
-                                <figcaption>
-                                    <h4>
-                            <a href="portfolio-item-mddg.html">
-                               Medical Device Development Group
-                            </a>
-                        </h4>
-                                    <p>ResQ&reg; Catheter</p>
-                                   
-                                    <a class="link" href="portfolio-item-mddg.html">
-                                        <i class="fa fa-link"></i>
-                                    </a>
-                                </figcaption>
-                            </figure>
-                        </div>
-                        
-                        <div class="portfolio-item infinite-item col-md-4 col-sm-4 filter-consulting filter-webdev">
-                            <figure class="portfolio-figure">
-                                <a href="portfolio-item-jcreative.html">
-                                    <img width="600" height="518" src="img/portfolio/j_creative/jcreative-600x518.png" class="img-responsive" alt="some image">
-                                </a>
-                                <figcaption>
-                                    <h4>
-                            <a href="portfolio-item-jcreative.html">
-                                JH Creative
-                            </a>
-                        </h4>
-                                    <p>Full-stack Development Consulting.</p>
-                                    
-                                    <a class="link" href="portfolio-item-jcreative.html">
-                                        <i class="fa fa-link"></i>
-                                    </a>
-                                </figcaption>
-                            </figure>
-                        </div>
-                                                                        
-                    </div>
-                </div>
-            </div>
-        </section> 
+    <title></title>
+</head>
+<body>
+<!-- Main container -->
+<div class="page-container">
+    <!-- Navigation Bloc --><div class="bloc l-bloc bgc-white" id="nav-bloc">
+	<div class="container bloc-sm">
+		<nav class="navbar row">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="index.html"><img src="img/l_weru_sig_logo_grey_sm.png" alt="logo" /></a>
+				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
+					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+				</button>
+			</div>
+			<div class="collapse navbar-collapse navbar-1">
+				<ul class="site-navigation nav navbar-nav">
+					<li>
+						<a class="ltc-carmine-pink" href="index.html">Home</a>
+					</li>
+					<li>
+						<a class="ltc-carmine-pink" id="pl-undefined" onclick="scrollToTarget('2')">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+</div><!-- Navigation Bloc END --><!-- page-head --><div class="bloc bgc-white tc-outer-space" id="page-head">
+	<div class="container bloc-md">
+		<div class="row voffset-md">
+			<div class="col-sm-12">
+				<img src="img/lw_mesh_trans_broke_sq.png" class="img-responsive center-block mg-md animated swing" width="300" />
+				<h1 class="text-center  mg-sm tc-dark-jungle-green">
+					Larry Weru
+				</h1>
+				<p class="text-center ">
+					Programmer. Artist. Biologist. Consultant.<br />Founder of <a class="ltc-carmine-pink" href="https://lobbyq.com" target="_blank">LobbyQ</a>
+				</p>
+				<div class="row voffset">
+					<div class="col-sm-5">
+						<h3 class="mg-md">
+						</h3>
+					</div>
+					<div class="col-sm-2">
+						<div class="divider-h">
+							<span class="divider"></span>
+						</div>
+					</div>
+					<div class="col-sm-5">
+						<h3 class="mg-md">
+						</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div><!-- page-head END --><!-- bloc-2 --><div class="bloc bgc-white l-bloc" id="bloc-2">
+	<div class="container bloc-lg">
+		<div class="row">
+			<div class="col-sm-3">
+				<img src="img/FSView-fsunews.com-Logo.jpg" class="img-responsive center-block animated fadeIn" />
+			</div>
+			<div class="col-sm-3">
+				<img src="img/fast-company-logo.png" class="img-responsive center-block animated fadeIn" />
+			</div>
+			<div class="col-sm-3">
+				<img src="img/tedx-logo.png" class="img-responsive center-block animated fadeIn" />
+			</div>
+			<div class="col-sm-3">
+				<img src="img/tallahasseedem.png" class="img-responsive center-block animated fadeIn" />
+			</div>
+		</div>
+	</div>
+</div><!-- bloc-2 END --><!-- bloc-3 --><div class="bloc bgc-white l-bloc" id="bloc-3">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-3">
+				<img src="img/reddit-logo.png" class="img-responsive center-block animated fadeIn" />
+			</div>
+			<div class="col-sm-3">
+				<img src="img/matter_logo.png" class="img-responsive center-block animated fadeIn" />
+			</div>
+			<div class="col-sm-3">
+				<img src="img/mit_acses-logo.png" class="img-responsive center-block animated fadeIn" />
+			</div>
+			<div class="col-sm-3">
+				<img src="img/sidebar_logo.png" class="img-responsive center-block animated fadeIn" />
+			</div>
+		</div>
+	</div>
+</div><!-- bloc-3 END --><!-- bloc-4 --><div class="bloc l-bloc bgc-white" id="bloc-4">
+	<div class="container bloc-lg">
+		<div class="row">
+			<div class="col-sm-3">
+				<img src="img/FSU_CFA_FbLogo.jpg" class="animated fadeIn" height="150" />
+			</div>
+			<div class="col-sm-3">
+				<h1 class="mg-md ">
+				</h1><img src="img/GeniviaLogo2_trans_noslogan_large.png" class="center-block img-responsive animated fadeIn" />
+			</div>
+			<div class="col-sm-3">
+				<img src="img/JMI-Logo-for-business-card-transparent.png" class="center-block img-responsive animated fadeIn" />
+			</div>
+			<div class="col-sm-3">
+				<img src="img/FSU-inducts-20-new-members-to-Garnet-and-Gold-Scholar-Society_linkbox.png" class="center-block mg-lg animated fadeIn" height="150" />
+			</div>
+		</div>
+	</div>
+</div><!-- bloc-4 END --><!-- passions --><div class="bloc bgc-outer-space d-bloc" id="passions">
+	<div class="container bloc-lg">
+		<div class="row animated fadeIn">
+			<div class="col-sm-12">
+				<h1 class="text-center  mg-md">
+					Passions
+				</h1>
+			</div>
+		</div>
+	</div>
+</div><!-- passions END --><!-- bloc-6 --><div class="bloc tc-white bgc-outer-space d-bloc" id="bloc-6">
+	<div class="container bloc-sm">
+		<div class="row">
+			<div class="col-sm-4">
+				<img src="img/terminal10.png" class="img-responsive img-circle center-block img-frame-rd mg-lg animated tada" />
+				<h3 class="mg-md text-center ">
+					Web / Programming
+				</h3>
+				<p class=" mg-lg">
+					I made my first website when I was 12, and continue to enjoy web development. Databases, application servers, and thin clients are my 3 best friends.<br /><br />- JavaScript (ES5, incl. jQuery + other libs)<br />- PHP<br />- C# / ASP.NET<br />- Meteor (Node.js)<br />- HTML<br />- CSS<br />- Wordpress<br />- ProcessWire<br />- Mobile App Development<br />- SciLab<br />- SQL<br />- MongoDB (NoSQL)
+				</p>
+			</div>
+			<div class="col-sm-4">
+				<img src="img/pencil_flat.png" class="img-responsive img-circle center-block mg-lg img-frame-rd animated tada" />
+				<h3 class="mg-md  text-center sm-shadow">
+					Illustration &amp; Design
+				</h3>
+				<p>
+					Before I could speak, I could draw. I hold a B.A. in Studio Art from Florida State University, where I was bred to be proficient in classical &amp; digital media.<br /><br />- Dry media (graphite, chalk, pastel, etc)<br />- Wet media (watercolor, acrylic, oil)<br />- Metalworking &amp; Ceramics<br />- Concept art<br />- UX Design<br />- 3D modeling<br />- Digital Painting<br />- Book Cover Design<br />- Web Design
+				</p>
+			</div>
+			<div class="col-sm-4">
+				<img src="img/187px-Same_color_illusion_proof2.png" class="img-responsive img-circle center-block mg-lg img-frame-rd animated tada" />
+				<h3 class="mg-md  text-center sm-shadow">
+					Philosphy of Vision
+				</h3>
+				<p>
+					I'm best known for pioneering the "Neutralizing" color-mapping algorithm, which I cover over at <a href="https://medium.com/matter/the-trouble-with-the-purple-election-map-31e6cb9f1827" target="_blank">Medium.com</a> (80,000 reads). This contribution has been featured on the front page of <a href="https://www.reddit.com/r/dataisbeautiful/comments/2gde0v/the_problem_with_the_purple_election_map_and_why/#sthash.5ntxFYv6.dpuf" target="_blank">Reddit</a> as well as <a href="http://www.lweru.com/www.fastcodesign.com/3035951/the-glaring-design-flaw-in-us-election-maps">Fast Company</a>.<br /><br />I'm concerned with the nature of perception. In particular, how perceptual experience relates to beliefs about reality. I hold a B.S. in Biological Science from Florida State University with specific interests in Bio-Physics, Optics, &amp; Colour Vision.<br />
+				</p>
+			</div>
+		</div>
+	</div>
+</div><!-- bloc-6 END --><!-- recent --><div class="bloc bgc-white l-bloc" id="recent">
+	<div class="container bloc-lg">
+		<div class="row drag-obj">
+			<div class="col-sm-12">
+				<h1 class="mg-md text-center  animated fadeIn">
+					Recent Clients &amp; Work
+				</h1>
+			</div>
+		</div>
+	</div>
+</div><!-- recent END --><!-- bloc-8 --><div class="bloc tc-dark-jungle-green bgc-white l-bloc" id="bloc-8">
+	<div class="container bloc-sm">
+		<div class="row">
+			<div class="col-sm-4">
+				<div class="panel bgc-white-2">
+					<div class="panel-heading bgc-white">
+						<a href="genivia.html"><img src="img/GeniviaLogo2_trans_noslogan_large.png" class="img-responsive center-block" /></a>
+					</div>
+					<div class="panel-body">
+						<h3 class="mg-md">
+							<a href="genivia.html">Genivia, Inc</a>
+						</h3>
+						<p class="text-left mg-md">
+							Genivia is a private consulting and software development company serving all of the top 15 technology companies, most of the Fortune 500 companies, non-profits, and the US department of defense. They are best known for their gSOAP toolkit.<br /><br />Read more about how I directed the custom redesign of their website, including scripting an interactive Dev Center and their logo.
+						</p>
+					</div>
+					<div class="panel-footer bgc-white-2">
+						<a href="genivia.html" class="btn btn-clean btn-carmine-pink btn-block btn-lg btn-sq" target="_blank">Read More</a>
+					</div>
+				</div>
+				<div class="panel bgc-white-2">
+					<div class="panel-heading bgc-white">
+						<a href="md2g.html"><img src="img/md2g_logo.jpg" class="img-responsive center-block" /></a>
+					</div>
+					<div class="panel-body">
+						<h3 class="mg-md">
+							<a href="md2g.html">Medical Device Development Group</a>
+						</h3>
+						<p>
+							Md2g is an end-to-end medical device commercialization firm. Their services include product conceptualization; prototyping; developing regulatory strategy and identifying all requirements for FDA and international approvals; developing and coordinating supply chain strategy and product launch; reimbursement strategy and implementation; and, marketing, sales, and training.<br /><br />Read more about how they consulted with me to create biomedical / scientific visualizations for the innovative ResQ Catheter.
+						</p>
+					</div>
+					<div class="panel-footer">
+						<a href="md2g.html" class="btn btn-clean btn-carmine-pink btn-block btn-lg btn-sq" target="_blank">Read More</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="panel bgc-white-2">
+					<div class="panel-heading bgc-white">
+						<a href="jhcreative.html"><img src="img/JH_Logo-for-Web2.png" class="img-responsive center-block" /></a>
+					</div>
+					<div class="panel-body">
+						<h3 class="mg-md">
+							<a href="jhcreative.html">JHCreative</a>
+						</h3>
+						<p>
+							JHCreative is a full-service Design &amp; Branding company that specializes in Branding, Web, Print, Strategy, Consultation, and Marketing.<br /><br />As a programming consultant for them I have been tasked with delving into source code originally written by other Engineers to troubleshoot broken code and add custom features, such as in WordPress.
+						</p>
+					</div>
+					<div class="panel-footer">
+						<a href="jhcreative.html" class="btn btn-clean btn-carmine-pink btn-block btn-lg btn-sq" target="_blank">Read More</a>
+					</div>
+				</div>
+				<div class="panel bgc-white-2">
+					<div class="panel-heading bgc-white">
+						<a href="datamaxx.html"><img src="img/greenlight_lobby4.jpg" class="img-responsive center-block" /></a>
+					</div>
+					<div class="panel-body">
+						<h3 class="mg-md tc-dark-jungle-green">
+							<a href="datamaxx.html">Datamaxx Group</a>
+						</h3>
+						<p class="mg-md">
+							Datamaxx is one of the largest providers of advanced communications, data access, information sharing, enterprise intelligence, and access control solutions. They serve more than 70 percent of the criminal justice information market, with more than 750,000 end users worldwide, and such distinguished customers as the Federal Bureau of Investigation, the New York City Police Department, and the US Department of State.<br /><br />Read more about how I built the internal admin client for their GreenLight product.
+						</p>
+					</div>
+					<div class="panel-footer">
+						<a href="datamaxx.html" class="btn btn-clean btn-carmine-pink btn-block btn-lg btn-sq" target="_blank">Read More</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="panel bgc-white-2">
+					<div class="panel-heading bgc-white">
+						<a href="lobbyq-2.html"><img src="img/lq_l_q_2.png" class="img-responsive center-block" /></a>
+					</div>
+					<div class="panel-body">
+						<h3 class="mg-md tc-dark-jungle-green">
+							<a href="lobbyq-2.html">LobbyQ</a>
+						</h3>
+						<p>
+							LobbyQ (formerly AstroQueue) streamlines customer intake. It regulates walk-in traffic, collects customer information, and helps offices understand their customers and themselves through visual metrics &amp; analytics. It is a digital waiting list that teams love to use.
+						</p>
+					</div>
+					<div class="panel-footer">
+						<a href="lobbyq-2.html" class="btn btn-clean btn-carmine-pink btn-block btn-lg btn-sq" target="_blank">Read More</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div><!-- bloc-8 END --><!-- commotion --><div class="bloc l-bloc bgc-white" id="commotion">
+	<div class="container">
+		<div class="row voffset-lg">
+			<div class="col-sm-12">
+				<h1 class="mg-md  text-center">
+					Commotion
+				</h1>
+			</div>
+		</div>
+	</div>
+</div><!-- commotion END --><!-- bloc-10 --><div class="bloc bgc-white l-bloc" id="bloc-10">
+	<div class="container bloc-lg">
+		<div class="row">
+			<div class="col-sm-4">
+				<div class="panel panel-sq bgc-white-2">
+					<div class="panel-heading bgc-dark-jungle-green">
+						<a href="#"><img src="img/lwtedx.png" class="img-responsive center-block" width="1000" /></a>
+					</div>
+					<div class="panel-body">
+						<h4 class="mg-md text-center tc-white">
+							<a href="http://www.tedxtallahassee.org/larry" target="_blank">TedXTallahassee: Why Scientists should care about Colour</a>
+						</h4>
+						<h6 class="mg-md text-center tc-white">
+							<a href="#" target="_blank">TEDxTallahassee April 12, 2015</a>
+						</h6>
+						<h5 class="mg-md tc-white">
+							<a class="pull-left" href="#" target="_blank">Gave a TED talk intersecting the fields of Colour Theory, Political Science, Data-Visualization, and Philosophy of Vision.</a>
+						</h5>
+					</div>
+					<div class="panel-footer">
+						<a href="http://www.tedxtallahassee.org/larry" class="btn btn-clean btn-block btn-lg btn-carmine-pink btn-sq" target="_blank">Read More</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="panel bgc-white-2">
+					<div class="panel-heading bgc-dark-jungle-green">
+						<a href="#"><img class="img-responsive center-block" src="img/FastCoDesign.png" width="1000" /></a>
+					</div>
+					<div class="panel-body">
+						<h4 class="mg-md text-center tc-white">
+							<a href="http://www.fastcodesign.com/3035951/the-glaring-design-flaw-in-us-election-maps" target="_blank">Fast Company: The Glaring Design Flaw In U.S. Election Maps</a>
+						</h4>
+						<h6 class="mg-md text-center tc-white">
+							<a href="#" target="_blank">John Brownlee (Fast Company), 19 September, 2014</a>
+						</h6>
+						<h5 class="mg-md tc-white text-left">
+							<a href="http://www.fastcodesign.com/3035951/the-glaring-design-flaw-in-us-election-maps" target="_blank">" According to Lawrence Weru, who studied election maps during the 2012 presidential elections while at Florida State University, this is why purple election maps are misleading. "</a>
+						</h5>
+					</div>
+					<div class="panel-footer">
+						<a href="http://www.fastcodesign.com/3035951/the-glaring-design-flaw-in-us-election-maps" class="btn btn-clean btn-block btn-lg btn-carmine-pink btn-sq" target="_blank">Read More</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="panel bgc-white-2">
+					<div class="panel-heading bgc-white">
+						<a href="#"><img class="img-responsive center-block " src="img/gizmodo_03_gr.png" width="1000" /></a>
+					</div>
+					<div class="panel-body">
+						<h4 class="mg-md text-center tc-white">
+							<a href="http://whitenoise.gizmodo.com/how-to-lie-with-color-1654848756" target="_blank">Gizmodo: How to Lie with Color</a>
+						</h4>
+						<h6 class="mg-md text-center tc-white">
+							<a href="#" target="_blank">story645, 5 November, 2014</a>
+						</h6>
+						<h5 class="mg-md tc-white text-left">
+							<a href="http://whitenoise.gizmodo.com/how-to-lie-with-color-1654848756" target="_blank">" According to Lawrence Weru, who studied election maps during the 2012 presidential elections while at Florida State University, this is why purple election maps are misleading. "</a>
+						</h5>
+					</div>
+					<div class="panel-footer">
+						<a href="http://whitenoise.gizmodo.com/how-to-lie-with-color-1654848756" class="btn btn-clean btn-block btn-lg btn-carmine-pink btn-sq" target="_blank">Read More</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div><!-- bloc-10 END --><!-- ScrollToTop Button --><a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a><!-- ScrollToTop Button END--><!-- Footer - bloc-18 --><div class="bloc bgc-white l-bloc" id="bloc-18">
+	<div class="container bloc-xl">
+		<div class="row animated fadeIn">
+			<div class="col-xs-12 col-md-8 col-md-offset-2">
+				<div class="col-sm-3 text-center">
+					<a class="social-lg" href="https://twitter.com/LarryWeru" target="_blank"><span class="fa fa-twitter icon-lg"></span></a>
+				</div>
+				<div class="col-sm-3 text-center">
+					<a class="social-lg" href="https://www.facebook.com/profile.php?id=100006086209115" target="_blank"><span class="fa fa-facebook icon-lg"></span></a>
+				</div>
+				<div class="col-sm-3 text-center">
+					<a class="social-lg" href="https://www.linkedin.com/profile/view?id=AAIAAAglCTwBw_S6208t_y9zsMKNP2YxF-12KRQ" target="_blank"><span class="fa fa-linkedin icon-lg"></span></a>
+				</div>
+				<div class="col-sm-3 text-center">
+					<a class="social-lg" href="https://github.com/LDubya" target="_blank"><span class="fa fa-github-square icon-lg"></span></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div><!-- Footer - bloc-18 END --><!-- Footer - bloc-19 --><div class="bloc l-bloc bgc-white tc-outer-space" id="bloc-19">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12">
+				<p class="text-center">
+					© Larry Weru 2015. All rights reserved.
+				</p>
+			</div>
+		</div>
+	</div>
+</div><!-- Footer - bloc-19 END -->
+</div>
+<!-- Main container END -->
 
-        <section class="section swatch-white-red" id="section_commotion">
-            <div class="container">
-                <header class="section-header underline text-center">
-                    <h1 class="headline super boldish">Commotion</h1>
-                </header>
-                <div class="carousel slide" id="news2">
-                    <ol class="carousel-indicators">
-<!--                        <li data-slide-to="0" data-target="#news2" class="active"></li>-->
-<!--                        <li data-slide-to="1" data-target="#news2"></li>-->
-                    </ol>
-                    <div class="carousel-inner">
-                        <div class="item active">
-                            <div class="row">
-                                <div class="col-md-4">
-                                    <div class="grid-post swatch-red-white">
-                                        <article class="post post-showinfo">
-                                            <div class="post-media">
-                                                <a class="feature-image magnific hover-animate" href="img/lwtedx.png" title="Startup Spotlight">
-<!--                                                    <img alt="some image" src="assets/images/design/vector/img-4-800x700.png">-->
-                                                    <img style="-webkit-user-select: none; cursor: zoom-in;" src="img/lwtedx.png" >
-                                                    <i class="fa fa-search-plus"></i>
-                                                </a>
-                                            </div>
-                                            <div class="post-head text-center">
-                                                <h3 class="post-title">
-                                                        <a target="_blank" href="http://www.tedxtallahassee.org/larry">
-                                                            TedXTallahassee: Why Scientists should care about Colour
-                                                        </a>
-                                                    </h3>
-                                                <small class="post-author">
-                                                        <a target="_blank" href="http://www.tedxtallahassee.org/larry">TEDxTallahassee</a>
-                                                    </small>
-                                                <small class="post-date">
-                                                        <a href="http://www.tedxtallahassee.org/larry">April 12, 2015</a>
-                                                    </small>
-                                                <div class="post-icon flat-shadow flat-hex">
-                                                    <div class="hex hex-big">
-                                                        <i class="fa fa-camera"></i>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="post-body">
-                                                <p>
-                                                    " Gave a TED talk intersecting the fields of Colour Theory, Political Science, Data-Visualization, and Philosophy of Vision. "
-                                                </p>
-                                                <a class="more-link text-center" target="_blank" href="http://www.tedxtallahassee.org/larry">
-                                                        read more
-                                                    </a>
-                                            </div>
-                                        </article>
-                                    </div>
-                                </div>
-                                <div class="col-md-4">
-                                    <div class="grid-post swatch-red-white">
-                                        <article class="post post-showinfo">
-                                            <div class="post-media">
-                                                <a class="feature-image magnific hover-animate" href="img/FastCoDesign.png" title="Fast Company">
-                                                    <img style="-webkit-user-select: none; cursor: zoom-in; width:800px" src="img/FastCoDesign.png" >
-                                                    <i class="fa fa-search-plus"></i>
-                                                </a>
-                                            </div>
-                                            <div class="post-head text-center">
-                                                <h3 class="post-title">
-                    <a target="_blank" href="http://www.fastcodesign.com/3035951/the-glaring-design-flaw-in-us-election-maps">
-                        Fast Company: The Glaring Design Flaw In U.S. Election Maps
-                    </a>
-                </h3>
-                                                <small class="post-author">
-                                                        <a target="_blank" href="http://www.fastcodesign.com/3035951/the-glaring-design-flaw-in-us-election-maps">John Brownlee (Fast Company),</a>
-                                                    </small>
-                                                <small class="post-date">
-                                                        <a href="http://www.fastcodesign.com/3035951/the-glaring-design-flaw-in-us-election-maps">19 September, 2014</a>
-                                                    </small>
-                                                <div class="post-icon flat-shadow flat-hex">
-                                                    <div class="hex hex-big">
-                                                        <i class="fa fa-picture-o"></i>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="post-body">
-                                                <p>
-                                                    " According to Lawrence  Weru, who studied election maps during the 2012 presidential elections while at Florida State University, this is why purple election maps are misleading. "
-                                                </p>
-                                                <a class="more-link text-center" target="_blank" href="http://www.fastcodesign.com/3035951/the-glaring-design-flaw-in-us-election-maps">
-                read more
-                </a>
-                                            </div>
-                                            
-                                        </article>
-                                    </div>
-                                </div>
-                                
-                                <div class="col-md-4">
-                                    <div class="grid-post swatch-red-white">
-                                        <article class="post post-showinfo">
-                                            <div class="post-media">
-                                                <a class="feature-image magnific hover-animate" href="img/gizmodo_03_gr.png" title="Gizmodo">
-                                                    <img style="-webkit-user-select: none; cursor: zoom-in; width:800px" src="img/gizmodo_03_gr.png" >
-                                                    <i class="fa fa-search-plus"></i>
-                                                </a>
-                                            </div>
-                                            <div class="post-head text-center">
-                                                <h3 class="post-title">
-                    <a target="_blank" href="http://whitenoise.gizmodo.com/how-to-lie-with-color-1654848756">
-                        Gizmodo: How to Lie with Color
-                    </a>
-                </h3>
-                                                <small class="post-author">
-                                                        <a target="_blank" href="http://whitenoise.gizmodo.com/how-to-lie-with-color-1654848756">story645,</a>
-                                                    </small>
-                                                <small class="post-date">
-                                                        <a href="http://whitenoise.gizmodo.com/how-to-lie-with-color-1654848756">5 November, 2014</a>
-                                                    </small>
-                                                <div class="post-icon flat-shadow flat-hex">
-                                                    <div class="hex hex-big">
-                                                        <i class="fa fa-picture-o"></i>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="post-body">
-                                                <p>
-                                                    " Besides thinking this is cool 'cause of the election implications, I think Weru is also giving a great example of the sort of ways it's really easy to accidentally lie with visualizations. "
-                                                </p>
-                                                <a class="more-link text-center" target="_blank" href="http://whitenoise.gizmodo.com/how-to-lie-with-color-1654848756">
-                                                read more
-                                                </a>
-                                            </div>
-                                            
-                                        </article>
-                                    </div>
-                                </div>
-                                
-                                
-                            </div>
-                        </div>                    
-                    </div>
-                </div>
-            </div>
-        </section>
-        <footer id="footer" role="contentinfo">
-            <section class="section swatch-beige-black has-top" id="section_footer">
-                <div class="decor-top">
-                    <svg class="decor" height="100%" preserveaspectratio="none" version="1.1" viewbox="0 0 100 100" width="100%" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M0 0 L50 100 L100 0 L100 100 L0 100" stroke-width="0"></path>
-                    </svg>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12 text-center">
-                            <div id="swatch_social-2" class="sidebar-widget  widget_swatch_social">
-                                <ul class="unstyled inline small-screen-center social-icons social-background social-big">
-                                    <li>
-                                        <a target="_blank" href="https://www.facebook.com/profile.php?id=100006086209115">
-                                            <i class="fa fa-facebook"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a target="_blank" href="https://twitter.com/LarryWeru">
-                                            <i class="fa fa-twitter"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a target="_blank" href="https://www.linkedin.com/profile/view?id=136644924">
-                                            <i class="fa fa-linkedin"></i>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div id="text-4" class="sidebar-widget widget_text">
-                                <div class="textwidget">&copy;Larry Weru 2015. All rights reserved.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </footer>
-    </div>
-    <a class="go-top hex-alt" href="javascript:void(0)">
-        <i class="fa fa-angle-up"></i>
-    </a>
-    <svg height="0" xmlns="http://www.w3.org/2000/svg">
-        <filter id="drop-shadow">
-            <feGaussianBlur in="SourceAlpha" stdDeviation="2" />
-            <feOffset dx="12" dy="12" result="offsetblur" />
-            <feFlood flood-color="rgba(0,0,0,0.5)" />
-            <feComposite in2="offsetblur" operator="in" />
-            <feMerge>
-                <feMergeNode/>
-                <feMergeNode in="SourceGraphic" />
-            </feMerge>
-        </filter>
-    </svg>
-    <script src="assets/js/packages.min.js"></script>
-    <script src="assets/js/theme.min.js"></script>
 </body>
+    
+<!-- Google Analytics -->
+
+<!-- Google Analytics END -->
 
 </html>
