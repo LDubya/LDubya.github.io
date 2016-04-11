@@ -1,0 +1,47 @@
+
+
+.devCategory
+{
+    padding: 1em;
+}
+
+.devCategoryActive
+{
+    background-color: #ffd52d;
+    box-shadow: 5px 10px 5px #efefef;
+}
+
+.devCategoryActive p
+{
+}
+
+small
+{
+    color: #16A085 !important;
+    border: 1px solid #16A085;
+    border-radius: 5px;
+    padding: 0 .5em 0 .5em;
+    margin-left: .5em;
+    text-transform: uppercase;
+}
+
+.price-block
+{
+}
+
+dt
+{
+    color: #16A085 !important;
+}
+
+.paragraph p, .paragraph li
+{
+    font-size: 16px !important;
+    text-align: left;
+}
+
+
+null
+{
+}
+
