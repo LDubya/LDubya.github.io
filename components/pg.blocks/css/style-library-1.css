@@ -1413,8 +1413,9 @@ fieldset[disabled] .form-control {
 .panel-heading {
     background-color: inherit !important;
     color: inherit !important;
-    padding: 25px;
-    border-color: #dbdbda !important;
+    padding: 1px;
+    padding-bottom: 0;
+    border-color: #c6c6c6 !important;
 }
 
 .panel-title {

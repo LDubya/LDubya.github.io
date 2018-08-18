@@ -834,6 +834,10 @@ a[data-lightbox]:hover img {
     color: #ffffff;
 }
 
+.panel-body p {
+    color: #000;
+}
+
 .bgc-outer-space {
     background-color: #47454B;
 }
