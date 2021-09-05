@@ -22,3 +22,34 @@ h3.mg-md{
 h3.mg-md:hover{
     color:#000;
 }
+
+.panel-heading.bgc-white,
+.panel-heading.bgc-dark-jungle-green {
+    padding: 20px;
+}
+
+.panel-heading.bgc-white .panelImageContainer,
+.panel-heading.bgc-dark-jungle-green .panelImageContainer{
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+
+
+.panel-heading.bgc-white .panelImageContainer:after,
+.panel-heading.bgc-dark-jungle-green .panelImageContainer:after{
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
+
+.panel-heading.bgc-white .panelImageContainer img,
+.panel-heading.bgc-dark-jungle-green .panelImageContainer img{
+    display: none;
+}
+
+.panelImageContainer{
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
