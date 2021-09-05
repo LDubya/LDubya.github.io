@@ -16,3 +16,9 @@
     }
 }
 
+h3.mg-md{
+    color:rgba(0,0,0,.6);
+}
+h3.mg-md:hover{
+    color:#000;
+}
