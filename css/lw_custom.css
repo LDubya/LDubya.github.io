@@ -57,7 +57,7 @@ h3.mg-md:hover{
 
 .featuredIcons{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;   
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
 }
 
 .featuredIcons .featuredIconContainer{
@@ -65,9 +65,26 @@ h3.mg-md:hover{
     padding: 40px;
 }
 
+.featuredIconContainer .mobileImage{
+    display: none;
+}
+
 @media (max-width : 767px) {
     .featuredIcons{
         grid-template-columns: 1fr;
+    }
+    .featuredContainer .featuredIcons{
+        grid-template-columns: 1fr 1fr;
+    }
+    .featuredIcons .panelImageContainer{
+        display: none;
+    }
+    .featuredIconContainer .mobileImage{
+        display: block;
+        width: 100%;
+    }
+    #page-head p{
+        /* font-size: 1.6rem; */
     }
 }
 
@@ -75,3 +92,4 @@ h3.mg-md:hover{
     /* color: rgb(201, 201, 201); */
     visibility: hidden;
 }
+
