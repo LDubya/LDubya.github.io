@@ -97,3 +97,8 @@ h3.mg-md:hover{
     visibility: hidden;
 }
 
+.gridcontainer h4,
+.gridcontainer h5,
+.gridcontainer h6{
+    color: rgba(0,0,0,.6);
+}
