@@ -1,21 +1,17 @@
-.gridcontainer::before,
-.container.bloc-sm::before{
+.gridcontainer::before{
     display: none;
 }
-.gridcontainer,
-.container.bloc-sm{
+.gridcontainer{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
 }
 
-.gridcontainer > .col-sm-4,
-.container.bloc-sm > .col-sm-4{
+.gridcontainer > .col-sm-4{
     width: 100%;
 }
 
 @media (max-width : 767px) {
-    .gridcontainer,
-    .container.bloc-sm{
+    .gridcontainer{
         grid-template-columns: 1fr;
     }
 }
@@ -53,6 +49,15 @@ h3.mg-md:hover{
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
+
+    transition: transform 250ms ease-in;
+}
+
+.panelImageContainer:hover{
+    /* background-size: 50%; */
+    /* background-repeat: repeat; */
+
+    transform:scale(1.15)
 }
 
 .featuredIcons::before{
@@ -101,4 +106,9 @@ h3.mg-md:hover{
 .gridcontainer h5,
 .gridcontainer h6{
     color: rgba(0,0,0,.6);
+}
+
+img.heroImage{
+    /* width: 1300px; */
+    /* max-width: 20px; */
 }

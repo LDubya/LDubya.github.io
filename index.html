@@ -4,61 +4,65 @@
         <meta charset="utf-8">
         <meta name="keywords" content="">
         <meta name="description" content="Larry Weru. Consultant. Programmer. Artist. Scientist."/>
+        <link rel="shortcut icon" href="favicon.ico"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+        <link rel="stylesheet" type="text/css" href="/css/bootstrap.css">
+        <link rel="stylesheet" id="ppstyle" type="text/css" href="/style.css">
+        <link rel='stylesheet' href="/css/animate.css"/>
+        <link rel='stylesheet' href="/css/font-awesome.min.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&subset=latin,latin-ext" rel='stylesheet' type='text/css'>
+        <script src="/js/jquery-2.1.0.min.js"></script>
+        <script src="/js/bootstrap.js"></script>
+        <script src="/js/blocs.js"></script>
+        <title>Larry Weru </title>
+        <link rel="stylesheet" href="css/lw_custom.css">
+        <link rel="stylesheet" href="components/pg.blocks/css/blocks.css">
+        <link rel="stylesheet" href="components/pg.blocks/css/plugins.css">
+        <link rel="stylesheet" href="components/pg.blocks/css/style-library-1.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic">
         <link rel="image_src" href="https://www.lweru.com/img/lw_mesh_trans_broke_sq_jpg.jpg"/>
         <meta property="og:image" content="https://www.lweru.com/img/og_image.png"/>
         <meta property="og:title" content="Larry Weru"/>
         <meta property="og:site_name" content="Larry Weru"/>
         <meta property="og:url" content="https://www.lweru.com"/>
         <meta property="og:description" content="Larry Weru. Consultant. Programmer. Artist. Scientist."/>
-        <link rel="shortcut icon" href="favicon.ico"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
-        <link rel="stylesheet" type="text/css" href="/css/bootstrap.css">
-        <link rel="stylesheet" id="ppstyle" type="text/css" href="/style.css">
-        <link rel='stylesheet' href='/css/animate.css'/>
-        <link rel='stylesheet' href='/css/font-awesome.min.css'/>
-        <link href='https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-        <script src="/js/jquery-2.1.0.min.js"></script>
-        <script src="/js/bootstrap.js"></script>
-        <script src="/js/blocs.js"></script>
-        <title>Larry Weru </title>
-        <link rel="stylesheet" href="components/pg.blocks/css/blocks.css">
-        <link rel="stylesheet" href="components/pg.blocks/css/plugins.css">
-        <link rel="stylesheet" href="components/pg.blocks/css/style-library-1.css">
-        <link rel="stylesheet" href="css/lw_custom.css">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic">
     </head>
     <body>
         <!-- Main container -->
-        <div class="page-container"> 
+        <div class="page-container">
             <!-- Navigation Bloc -->             
-            <div class="bloc l-bloc bgc-white" id="nav-bloc">
-                <div class="container bloc-sm">
-                    <nav class="navbar row">
-                        <div class="navbar-header">
-                            <a class="navbar-brand" href="../../index.html">
-                                <img src="/img/l_weru_sig_logo_grey_sm.png" alt="logo"/>
-                            </a>
-                            <button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
-                                <span class="sr-only">Toggle navigation</span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                            </button>
+            <div id="b-nav" class="bloc-container">
+                <div id="bloc-nav" class="d-mode">
+                    <div class="bloc l-bloc bgc-white" id="nav-bloc">
+                        <div class="container bloc-sm navbarRowContainer">
+                            <nav class="navbar row">
+                                <div class="navbar-header">
+                                    <a class="navbar-brand" href="#">
+                                        <img src="/img/l_weru_sig_logo_grey_sm.png" alt="logo"/>
+                                    </a>
+                                    <button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
+                                        <span class="sr-only">Toggle navigation</span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                    </button>
+                                </div>
+                                <div class="collapse navbar-collapse navbar-1">
+                                    <ul class="site-navigation nav navbar-nav">
+                                        <!-- <li>
+                                            <a class="ltc-carmine-pink" href="#">Home</a>
+                                        </li> -->
+                                        <li>
+                                            <a class="ltc-carmine-pink" id="pl-undefined" onclick="scrollToTarget('2')">Contact</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </nav>
                         </div>
-                        <div class="collapse navbar-collapse navbar-1">
-                            <ul class="site-navigation nav navbar-nav">
-                                <li>
-                                    <a class="ltc-carmine-pink" href="../../index.html">Home</a>
-                                </li>
-                                <li>
-                                    <a class="ltc-carmine-pink" id="pl-undefined" onclick="scrollToTarget('2')">Contact</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </nav>
+                    </div>
                 </div>
-            </div>             
+            </div>
             <!-- Navigation Bloc END -->             
             <!-- page-head -->             
             <div class="bloc bgc-white tc-outer-space" id="page-head">
@@ -70,7 +74,7 @@
                             <p class="text-center"><i><b>Consultant, E-Commerce Developer, Digital Storyteller</b></i></p>
                             <p class="text-center"><br></p>
                             <p class="text-center"><!-- 🗣 Speaker at <b>TEDx</b><br> -->
-                                "Notable Nole" alumnus @ <strong>Florida&nbsp;State&nbsp;University</strong> <br> 
+                                "Notable Nole" Alumnus @ <strong>Florida&nbsp;State&nbsp;University</strong> <br> 
                                 Associate Alumnus @ <strong>Harvard</strong><br> <!-- ✍🏾 Freelance Contributor to <b>Slate</b>, <b>Vox</b>, <b>Orlando&nbsp;Sentinel</b>, <b>Vancouver&nbsp;Sun</b>, <b>KevinMD </b><br> --></p>
                             <!-- <p class="text-center"><br></p>
                             <p class="text-center"><i>"To extend our reach to the stars above."</i></p> -->
@@ -89,94 +93,105 @@
                     </div>
                     <div class="row featuredIcons">
                         <div class="col-sm-3 featuredIconContainer">
-                            <div class="panelImageContainer animated fadeIn" style="background-image:url(img/featured/tedx-logo.png)">
-                                <p>TEDx</p>
-                            </div>
-                            <img src="img/featured/tedx-logo.png" class="mobileImage"/> 
+                            <a href="https://www.youtube.com/watch?v=U5qn33KR7us" target="_blank">
+                                <div class="panelImageContainer animated fadeIn" style="background-image:url(img/featured/tedx-logo.png)">
+                                    <p>TEDx</p>
+                                </div>
+                                <img src="img/featured/tedx-logo.png" class="mobileImage"/> 
+                            </a>
                         </div>
                         <div class="col-sm-3 featuredIconContainer">
-                            <div class="panelImageContainer animated fadeIn" style="background-image:url(img/featured/slate_avatar.svg)">
-                                <p>SLATE</p>
-                            </div>
-                            <img src="img/featured/slate_avatar.svg" class="mobileImage"/> 
+                            <a href="https://slate.com/technology/2021/03/clubhouse-voice-social-media-people-who-stutter.html" target="_blank">
+                                <div class="panelImageContainer animated fadeIn" style="background-image:url(img/featured/slate_avatar.svg)">
+                                    <p>SLATE</p>
+                                </div>
+                                <img src="img/featured/slate_avatar.svg" class="mobileImage"/> 
+                            </a>
                         </div>
                         <div class="col-sm-3 featuredIconContainer">
-                            <div class="panelImageContainer animated fadeIn" style="background-image:url(img/featured/Vox_logo.jpg)">
-                                <p>VOX</p>
-                            </div>
-                            <img src="img/featured/Vox_logo.jpg" class="mobileImage"/> 
+                            <a href="https://www.vox.com/authors/lawrence-weru">
+                                <div class="panelImageContainer animated fadeIn" style="background-image:url(img/featured/Vox_logo.jpg)">
+                                    <p>VOX</p>
+                                </div>
+                                <img src="img/featured/Vox_logo.jpg" class="mobileImage"/> 
+                            </a>
                         </div>
                         <div class="col-sm-3 featuredIconContainer">
-                            <div class="panelImageContainer animated fadeIn" style="background-image:url(img/featured/Orlando-Sentinel-logo.png)">
-                                <p>Orlando Sentinel</p>
-                            </div>
-                            <img src="img/featured/Orlando-Sentinel-logo.png" class="mobileImage"/> 
+                            <a href="https://www.orlandosentinel.com/opinion/guest-commentary/os-op-vaccine-passports-tourism-florida-california-20210415-vvglgycp4remzeyvtfdecjb4sm-story.html">
+                                <div class="panelImageContainer animated fadeIn" style="background-image:url(img/featured/Orlando-Sentinel-logo.png)">
+                                    <p>Orlando Sentinel</p>
+                                </div>
+                                <img src="img/featured/Orlando-Sentinel-logo.png" class="mobileImage"/> 
+                            </a>
                         </div>
                         <div class="col-sm-3 featuredIconContainer">
-                            <div class="panelImageContainer animated fadeIn" style="background-image:url(img/featured/vancouver_sun.png)">
-                                <p>Vancouver Sun</p>
-                            </div>
-                            <img src="img/featured/vancouver_sun.png" class="mobileImage"/> 
+                            <a href="https://vancouversun.com/opinion/opinion-local-changes-can-save-lives-in-the-next-heatwave">
+                                <div class="panelImageContainer animated fadeIn" style="background-image:url(img/featured/vancouver_sun.png)">
+                                    <p>Vancouver Sun</p>
+                                </div>
+                                <img src="img/featured/vancouver_sun.png" class="mobileImage"/> 
+                            </a>
                         </div>
                         <div class="col-sm-3 featuredIconContainer">
-                            <div class="panelImageContainer animated fadeIn" style="background-image:url(img/featured/Gizmodo.svg.png)">
-                                <p>Gizmodo Japan</p>
-                            </div>
-                            <img src="img/featured/Gizmodo.svg.png" class="mobileImage"/> 
+                            <a href="https://www.gizmodo.jp/2021/04/how-stutter-people-use-clubhouse.html">
+                                <div class="panelImageContainer animated fadeIn" style="background-image:url(img/featured/Gizmodo.svg.png)">
+                                    <p>Gizmodo Japan</p>
+                                </div>
+                                <img src="img/featured/Gizmodo.svg.png" class="mobileImage"/> 
+                            </a>
                         </div>
                         <div class="col-sm-3 featuredIconContainer">
-                            <div class="panelImageContainer animated fadeIn" style="background-image:url(img/featured/fast-company-logo.png)">
-                                <p>Fast Company</p>
-                            </div>
-                            <img src="img/featured/fast-company-logo.png" class="mobileImage"/> 
+                            <a href="https://www.fastcompany.com/3035951/the-glaring-design-flaw-in-us-election-maps">
+                                <div class="panelImageContainer animated fadeIn" style="background-image:url(img/featured/fast-company-logo.png)">
+                                    <p>Fast Company</p>
+                                </div>
+                                <img src="img/featured/fast-company-logo.png" class="mobileImage"/> 
+                            </a>
                         </div>
                         <div class="col-sm-3 featuredIconContainer">
-                            <div class="panelImageContainer animated fadeIn" style="background-image:url(img/featured/nostarch.jpg)">
-                                <p>No Starch Press</p>
-                            </div>
-                            <img src="img/featured/nostarch.jpg" class="mobileImage"/> 
+                            <a href="https://twitter.com/LarryWeru/status/1429903056028700672?s=20">
+                                <div class="panelImageContainer animated fadeIn" style="background-image:url(img/featured/nostarch.jpg)">
+                                    <p>No Starch Press</p>
+                                </div>
+                                <img src="img/featured/nostarch.jpg" class="mobileImage"/> 
+                            </a>
                         </div>
                         <div class="col-sm-3 featuredIconContainer">
-                            <div class="panelImageContainer animated fadeIn" style="background-image:url(img/featured/florida_times-union.jpg)">
-                                <p>Florida Times-Union</p>
-                            </div>
-                            <img src="img/featured/florida_times-union.jpg" class="mobileImage"/> 
+                            <a href="#">
+                                <div class="panelImageContainer animated fadeIn" style="background-image:url(img/featured/florida_times-union.jpg)">
+                                    <p>Florida Times-Union</p>
+                                </div>
+                                <img src="img/featured/florida_times-union.jpg" class="mobileImage"/> 
+                            </a>
                         </div>
                         <div class="col-sm-3 featuredIconContainer">
-                            <div class="panelImageContainer animated fadeIn" style="background-image:url(img/featured/kevinmd.png)">
-                                <p>KevinMD</p>
-                            </div>
-                            <img src="img/featured/kevinmd.png" class="mobileImage"/> 
+                            <a href="https://www.kevinmd.com/blog/2021/05/social-math-is-key-to-jj-vaccine-hesitancy.html">
+                                <div class="panelImageContainer animated fadeIn" style="background-image:url(img/featured/kevinmd.png)">
+                                    <p>KevinMD</p>
+                                </div>
+                                <img src="img/featured/kevinmd.png" class="mobileImage"/> 
+                            </a>
                         </div>
                         <div class="col-sm-3 featuredIconContainer">
-                            <div class="panelImageContainer animated fadeIn" style="background-image:url(img/featured/sidebar_logo.png)">
-                                <p>Sidebar</p>
-                            </div>
-                            <img src="img/featured/sidebar_logo.png" class="mobileImage"/> 
+                            <a href="#">
+                                <div class="panelImageContainer animated fadeIn" style="background-image:url(img/featured/sidebar_logo.png)">
+                                    <p>Sidebar</p>
+                                </div>
+                                <img src="img/featured/sidebar_logo.png" class="mobileImage"/> 
+                            </a>
                         </div>
                         <div class="col-sm-3 featuredIconContainer">
-                            <div class="panelImageContainer animated fadeIn" style="background-image:url(img/featured/dzone-logo.png)">
-                                <p>DZone</p>
-                            </div>
-                            <img src="img/featured/dzone-logo.png" class="mobileImage"/> 
+                            <a href="https://dzone.com/articles/data-driven-digest-november-7">
+                                <div class="panelImageContainer animated fadeIn" style="background-image:url(img/featured/dzone-logo.png)">
+                                    <p>DZone</p>
+                                </div>
+                                <img src="img/featured/dzone-logo.png" class="mobileImage"/> 
+                            </a>
                         </div>
-                        <!-- <div class="col-sm-3 featuredIconContainer">
-                            <div class="panelImageContainer animated fadeIn" style="background-image:url(img/featured/2017-7-Under-30-3_2_2.png)">
-                                <p>FSU 7 Under 30</p>
-                            </div>
-                        </div> -->
-                        <!-- <div class="col-sm-3 featuredIconContainer">
-                            <div class="panelImageContainer animated fadeIn" style="background-image:url(img/featured/reddit-logo.png)">
-                                <p>Reddit Front Page</p>
-                            </div>
-                        </div> -->
                         <!-- <div class="col-sm-3 featuredIconContainer">
                             <div class="panelImageContainer animated fadeIn" style="background-image:url(img/featured/matter_logo.png)">
                                 <p>Matter</p>
                             </div>
-                        </div> -->
-                        <!-- <div class="col-sm-3 featuredIconContainer">
-                            <div class="panelImageContainer animated fadeIn" style="background-image:url(projects/tropicisleliving/img/til_logo.png)"><p>Tropic Isle Living</p></div>
                         </div> -->
                         <!-- <div class="col-sm-3 featuredIconContainer">
                             <div class="panelImageContainer animated fadeIn" style="background-image:url(img/featured/FSU_CFA_FbLogo.jpg)">
@@ -187,12 +202,6 @@
                             <div class="panelImageContainer animated fadeIn" style="background-image:url(img/featured/HMS-logo.svg)">
                                 <p>Harvard Medical School</p>
                             </div>
-                        </div> -->
-                        <!-- <div class="col-sm-3 featuredIconContainer">
-                            <div class="panelImageContainer animated fadeIn" style="background-image:url(projects/genivia/img/logo.png)"><p>Genivia</p></div>
-                        </div> -->
-                        <!-- <div class="col-sm-3 featuredIconContainer">
-                            <div class="panelImageContainer animated fadeIn" style="background-image:url(img/featured/understory_wordmark.png)"><p>Understory</p></div>
                         </div> -->
                     </div>
                     <div class="row voffset-md">
@@ -223,26 +232,26 @@
             <!-- recent END -->             
             <!-- bloc-8 -->             
             <div class="bloc tc-dark-jungle-green bgc-black l-bloc" id="bloc-8">
-                <div class="container bloc-sm">
+                <div class="container bloc-sm gridcontainer">
                     <div class="col-sm-4">
                         <div class="panel bgc-white-2">
-                            <div class="panel-heading bgc-white">
-                                <a href="projects/tropicisleliving/tropicisleliving.html">
+                            <a href="projects/tropicisleliving/tropicisleliving.html">
+                                <div class="panel-heading bgc-white">
                                     <div class="panelImageContainer" style="background-image:url(projects/tropicisleliving/img/til_logo.png)"></div>
-                                </a>
-                            </div>
-                            <div class="panel-body">
-                                <h3 class="mg-md"><a href="projects/tropicisleliving/tropicisleliving.html">Tropic Isle Living</a></h3>
-                                <p class="text-left mg-md">Tropic Isle Living is a national haircare brand best known for introducing Jamaican Black Castor Oil to the Health &amp; Beauty world.<br><br>- Custom Shopify development<br>- Platform migration<br>- Project management<br></p>
-                            </div>
-                            <div class="panel-footer bgc-white-2">
-                                <a class="btn btn-clean btn-sq btn-lg btn-block btn-danger" href="projects/tropicisleliving/tropicisleliving.html" target="_blank">Read More</a>
-                            </div>
+                                </div>
+                                <div class="panel-body">
+                                    <h3 class="mg-md">Tropic Isle Living</h3>
+                                    <p class="text-left mg-md">Tropic Isle Living is a national haircare brand best known for introducing Jamaican Black Castor Oil to the Health &amp; Beauty world.<br><br>- Custom Shopify development<br>- Platform migration<br>- Project management<br></p>
+                                </div>
+                                <div class="panel-footer bgc-white-2">
+                                    <button class="btn btn-clean btn-sq btn-lg btn-block btn-danger" target="_blank" type="button">Read More</button>
+                                </div>
+                            </a>
                         </div>
                     </div>
                     <div class="col-sm-4">
                         <div class="panel bgc-white-2">
-                            <a href="projects/coreproducts/">
+                            <a href="projects/coreproducts/index.html">
                                 <div class="panel-heading bgc-white">
                                     <div class="panelImageContainer" style="background-image:url(projects/coreproducts/img/logo.png)"></div>
                                 </div>
@@ -251,15 +260,15 @@
                                     <p class="text-left mg-md">Core Products manufacturers and sells quality orthopedic pillows, braces &amp; supports, back cushions, wedge pillows, massage therapy products &amp; much more.</p>
                                     <p class="text-left mg-md">- Custom Shopify development<br>- Agency partnership<br></p>
                                 </div>
-                                <div class="panel-footer bgc-white-2 hidden">
-                                    <div class="btn btn-clean btn-carmine-pink btn-block btn-lg btn-sq">Read More</div>
+                                <div class="panel-footer bgc-white-2">
+                                    <div class="btn btn-clean btn-carmine-pink btn-block btn-lg btn-sq ">Read More</div>
                                 </div>
                             </a>
                         </div>
                     </div>
                     <div class="col-sm-4">
                         <div class="panel bgc-white-2">
-                            <a href="projects/petuniapicklebottom/">
+                            <a href="projects/petuniapicklebottom/index.html">
                                 <div class="panel-heading bgc-white">
                                     <div class="panelImageContainer" style="background-image:url(projects/petuniapicklebottom/img/logo.png)"></div>
                                 </div>
@@ -268,15 +277,15 @@
                                     <p class="text-left mg-md">Petunia Pickle Bottom was founded in 2000 in Ventura, California by DeNai and Braden Jones together with Korie Conant. Their diaper bags, handbags and other women's accessories became fashionable in the U.S. after being featured on Oprah Winfrey's talk show. </p>
                                     <p class="text-left mg-md">- Custom Shopify development<br>- Agency partnership<br></p>
                                 </div>
-                                <div class="panel-footer bgc-white-2 hidden">
-                                    <div class="btn btn-clean btn-carmine-pink btn-block btn-lg btn-sq">Read More</div>
+                                <div class="panel-footer bgc-white-2">
+                                    <div class="btn btn-clean btn-carmine-pink btn-block btn-lg btn-sq ">Read More</div>
                                 </div>
                             </a>
                         </div>
                     </div>
                     <div class="col-sm-4">
                         <div class="panel bgc-white-2">
-                            <a href="projects/gretchenventura/">
+                            <a href="projects/gretchenventura/index.html">
                                 <div class="panel-heading bgc-white">
                                     <div class="panelImageContainer" style="background-image:url(projects/gretchenventura/img/logo.png)"></div>
                                 </div>
@@ -285,15 +294,15 @@
                                     <p class="text-left mg-md">The Minnesota native (and close friend of DKNY founder Donna Karan) Gretchen Ventura specializes in unique, handmade jewelry that can be found at Neiman Marcus.</p>
                                     <p class="text-left mg-md">- Custom Shopify development<br>- Agency partnership<br></p>
                                 </div>
-                                <div class="panel-footer bgc-white-2 hidden">
-                                    <div class="btn btn-clean btn-carmine-pink btn-block btn-lg btn-sq">Read More</div>
+                                <div class="panel-footer bgc-white-2">
+                                    <div class="btn btn-clean btn-carmine-pink btn-block btn-lg btn-sq ">Read More</div>
                                 </div>
                             </a>
                         </div>
                     </div>
                     <div class="col-sm-4">
                         <div class="panel bgc-white-2">
-                            <a href="projects/herla/">
+                            <a href="projects/herla/index.html">
                                 <div class="panel-heading bgc-white">
                                     <div class="panelImageContainer" style="background-image:url(projects/herla/img/logo.png)"></div>
                                 </div>
@@ -302,15 +311,32 @@
                                     <p class="text-left mg-md">In 2019, Natalia Bednarek and her grandmother Krystyna launched their skincare line Herla. A whimsical play on the word “her,” they're known for their illuminating body oil with 24k gold.</p>
                                     <p class="text-left mg-md">- Custom Shopify development<br>- Agency partnership<br></p>
                                 </div>
-                                <div class="panel-footer bgc-white-2 hidden">
-                                    <div class="btn btn-clean btn-carmine-pink btn-block btn-lg btn-sq">Read More</div>
+                                <div class="panel-footer bgc-white-2">
+                                    <div class="btn btn-clean btn-carmine-pink btn-block btn-lg btn-sq ">Read More</div>
                                 </div>
                             </a>
                         </div>
                     </div>
                     <div class="col-sm-4">
                         <div class="panel bgc-white-2">
-                            <a href="projects/nwkc/">
+                            <a href="projects/unefemme/index.html">
+                                <div class="panel-heading bgc-white">
+                                    <div class="panelImageContainer" style="background-image:url(projects/unefemme/img/logo.png)"></div>
+                                </div>
+                                <div class="panel-body">
+                                    <h3 class="mg-md">Une Femme Wines</h3>
+                                    <p class="text-left mg-md">Whether we’re toasting to a dream job, a first home, or progress towards a better world, Une Femme is raising a glass to women raising the bar.</p>
+                                    <p class="text-left mg-md">- Custom Shopify development<br>- Agency partnership<br></p>
+                                </div>
+                                <div class="panel-footer bgc-white-2">
+                                    <div class="btn btn-clean btn-carmine-pink btn-block btn-lg btn-sq ">Read More</div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="panel bgc-white-2">
+                            <a href="projects/nwkc/index.html">
                                 <div class="panel-heading bgc-white">
                                     <div class="panelImageContainer" style="background-image:url(projects/nwkc/img/logo.png)"></div>
                                 </div>
@@ -319,15 +345,15 @@
                                     <p class="text-left mg-md">Northwestern Knitting Co. was founded in 1888 by George Munsing, who invented a method of plating woolen fibers with cotton to take the itch out of woolen underwear. The less bulky, single-piece undergarments were patented in 1891 and propelled NWKC to the industry standard for both household and military use.</p>
                                     <p class="text-left mg-md">- Custom Shopify development<br>- Agency partnership<br></p>
                                 </div>
-                                <div class="panel-footer bgc-white-2 hidden">
-                                    <div class="btn btn-clean btn-carmine-pink btn-block btn-lg btn-sq">Read More</div>
+                                <div class="panel-footer bgc-white-2">
+                                    <div class="btn btn-clean btn-carmine-pink btn-block btn-lg btn-sq ">Read More</div>
                                 </div>
                             </a>
                         </div>
                     </div>
                     <div class="col-sm-4">
                         <div class="panel bgc-white-2">
-                            <a href="projects/awe/">
+                            <a href="projects/awe/index.html">
                                 <div class="panel-heading bgc-white">
                                     <div class="panelImageContainer" style="background-image:url(projects/awe/img/logo.png)"></div>
                                 </div>
@@ -336,15 +362,15 @@
                                     <p class="text-left mg-md">Three-time cancer survivor Jill Johnson and her son Max founded Awe Inspired in 2018 to make meaningful and exceptional quality gifts for anyone looking to honor a survivor in their life.</p>
                                     <p class="text-left mg-md">- Custom Shopify development<br>- Agency partnership<br></p>
                                 </div>
-                                <div class="panel-footer bgc-white-2 hidden">
-                                    <div class="btn btn-clean btn-carmine-pink btn-block btn-lg btn-sq">Read More</div>
+                                <div class="panel-footer bgc-white-2">
+                                    <div class="btn btn-clean btn-carmine-pink btn-block btn-lg btn-sq ">Read More</div>
                                 </div>
                             </a>
                         </div>
                     </div>
                     <div class="col-sm-4">
                         <div class="panel bgc-white-2">
-                            <a href="projects/winecountrybotanicals/">
+                            <a href="projects/winecountrybotanicals/index.html">
                                 <div class="panel-heading bgc-white">
                                     <div class="panelImageContainer" style="background-image:url(projects/winecountrybotanicals/img/logo.png)"></div>
                                 </div>
@@ -353,8 +379,8 @@
                                     <p class="text-left mg-md">Working in wine country in her early twenties, founder Nicole Simpkins grew her passion for wine into a successful career, including the launch of two prominent, high-end wine brands in Sonoma County. But it wasn’t until she became a mother of twins that she saw another path. While searching for effective, natural remedies for her family, Nicole discovered essential oils — and just how much they have in common with grapes and wine-making.</p>
                                     <p class="text-left mg-md">- Custom Shopify development<br>- Agency partnership<br></p>
                                 </div>
-                                <div class="panel-footer bgc-white-2 hidden">
-                                    <div class="btn btn-clean btn-carmine-pink btn-block btn-lg btn-sq">Read More</div>
+                                <div class="panel-footer bgc-white-2">
+                                    <div class="btn btn-clean btn-carmine-pink btn-block btn-lg btn-sq ">Read More</div>
                                 </div>
                             </a>
                         </div>
@@ -370,15 +396,15 @@
                                     <p class="text-left mg-md">AccuStream is a leading source for waterjet machnes &amp; waterjet cutting equipment.</p>
                                     <p class="text-left mg-md">- Custom Shopify development<br>- Agency partnership<br></p>
                                 </div>
-                                <div class="panel-footer bgc-white-2 hidden">
-                                    <div class="btn btn-clean btn-carmine-pink btn-block btn-lg btn-sq">Read More</div>
+                                <div class="panel-footer bgc-white-2">
+                                    <div class="btn btn-clean btn-carmine-pink btn-block btn-lg btn-sq ">Read More</div>
                                 </div>
                             </a>
                         </div>
                     </div>
                     <div class="col-sm-4">
                         <div class="panel bgc-white-2">
-                            <a href="projects/builtright/">
+                            <a href="projects/builtright/index.html">
                                 <div class="panel-heading bgc-white">
                                     <div class="panelImageContainer" style="background-image:url(projects/builtright/img/logo.png)"></div>
                                 </div>
@@ -387,15 +413,15 @@
                                     <p class="text-left mg-md">BuiltRight Industries designs and manufacturers high quality Bedside Rack Systems, Velcro Tech Panel Kits, Tech Plate Kits, and Dash Mount Kits.</p>
                                     <p class="text-left mg-md">- Custom Shopify development<br>- Agency partnership<br></p>
                                 </div>
-                                <div class="panel-footer bgc-white-2 hidden">
-                                    <div class="btn btn-clean btn-carmine-pink btn-block btn-lg btn-sq">Read More</div>
+                                <div class="panel-footer bgc-white-2">
+                                    <div class="btn btn-clean btn-carmine-pink btn-block btn-lg btn-sq ">Read More</div>
                                 </div>
                             </a>
                         </div>
                     </div>
                     <div class="col-sm-4">
                         <div class="panel bgc-white-2">
-                            <a href="projects/goglowe/">
+                            <a href="projects/goglowe/index.html">
                                 <div class="panel-heading bgc-white">
                                     <div class="panelImageContainer" style="background-image:url(projects/goglowe/img/logo.png)"></div>
                                 </div>
@@ -404,15 +430,15 @@
                                     <p class="text-left mg-md">Glowe is a Social Wearable device and app experience that delivers Light, Color, Pattern, Sound and Vibration cues to notify users of social and messaging activity of their friends&nbsp;— what they call Sense Based Messaging.</p>
                                     <p class="text-left mg-md">- Custom Shopify development<br>- Agency partnership<br></p>
                                 </div>
-                                <div class="panel-footer bgc-white-2 hidden">
-                                    <div class="btn btn-clean btn-carmine-pink btn-block btn-lg btn-sq">Read More</div>
+                                <div class="panel-footer bgc-white-2">
+                                    <div class="btn btn-clean btn-carmine-pink btn-block btn-lg btn-sq ">Read More</div>
                                 </div>
                             </a>
                         </div>
                     </div>
                     <div class="col-sm-4">
                         <div class="panel bgc-white-2">
-                            <a href="projects/elevenpine/">
+                            <a href="projects/elevenpine/index.html">
                                 <div class="panel-heading bgc-white">
                                     <div class="panelImageContainer" style="background-image:url(projects/elevenpine/img/logo.png)"></div>
                                 </div>
@@ -421,15 +447,15 @@
                                     <p class="text-left mg-md">Elevenpine gives cyclists a highly versatile alternative to spandex bike shorts that don't sacrifice style when optimizing for performance and comfort.</p>
                                     <p class="text-left mg-md">- Custom Shopify development<br>- Agency partnership<br></p>
                                 </div>
-                                <div class="panel-footer bgc-white-2 hidden">
-                                    <div class="btn btn-clean btn-carmine-pink btn-block btn-lg btn-sq">Read More</div>
+                                <div class="panel-footer bgc-white-2">
+                                    <div class="btn btn-clean btn-carmine-pink btn-block btn-lg btn-sq ">Read More</div>
                                 </div>
                             </a>
                         </div>
                     </div>
                     <div class="col-sm-4">
                         <div class="panel bgc-white-2">
-                            <a href="projects/junoactive/">
+                            <a href="projects/junoactive/index.html">
                                 <div class="panel-heading bgc-white">
                                     <div class="panelImageContainer" style="background-image:url(projects/junoactive/img/logo.png)"></div>
                                 </div>
@@ -438,15 +464,15 @@
                                     <p class="text-left mg-md">When Anne Kelly saw a need for plus-size activewear, she founded JunoActive in 1995. Years later, the brand is still going strong with their functional—and fashionable—swimwear and athletic clothing that caters to the real woman's body.</p>
                                     <p class="text-left mg-md">- Custom Shopify development<br>- Agency partnership<br></p>
                                 </div>
-                                <div class="panel-footer bgc-white-2 hidden">
-                                    <div class="btn btn-clean btn-carmine-pink btn-block btn-lg btn-sq">Read More</div>
+                                <div class="panel-footer bgc-white-2">
+                                    <div class="btn btn-clean btn-carmine-pink btn-block btn-lg btn-sq ">Read More</div>
                                 </div>
                             </a>
                         </div>
                     </div>
                     <div class="col-sm-4">
                         <div class="panel bgc-white-2">
-                            <a href="projects/ort_motorsport/">
+                            <a href="projects/ort_motorsport/index.html">
                                 <div class="panel-heading bgc-white">
                                     <div class="panelImageContainer" style="background-image:url(projects/ort_motorsport/img/logo.png)"></div>
                                 </div>
@@ -455,15 +481,15 @@
                                     <p class="text-left mg-md">Founded on their passion for European/German cars, and owned and operated by enthusiasts for enthusiasts, ORT Motorsport is committed to helping you build the car of your dreams with the best service and parts available</p>
                                     <p class="text-left mg-md">- Custom Shopify development<br>- Agency partnership<br></p>
                                 </div>
-                                <div class="panel-footer bgc-white-2 hidden">
-                                    <div class="btn btn-clean btn-carmine-pink btn-block btn-lg btn-sq">Read More</div>
+                                <div class="panel-footer bgc-white-2">
+                                    <div class="btn btn-clean btn-carmine-pink btn-block btn-lg btn-sq ">Read More</div>
                                 </div>
                             </a>
                         </div>
                     </div>
                     <div class="col-sm-4">
                         <div class="panel bgc-white-2">
-                            <a href="projects/mobywrap/">
+                            <a href="projects/mobywrap/index.html">
                                 <div class="panel-heading bgc-white">
                                     <div class="panelImageContainer" style="background-image:url(projects/mobywrap/img/logo.png)"></div>
                                 </div>
@@ -472,15 +498,15 @@
                                     <p class="text-left mg-md">An immediate category leader after introducing their classic wrap in 2003, the MOBY name (MOther &amp; baBY) is synonymous with babywearing.</p>
                                     <p class="text-left mg-md">- Custom Shopify development<br>- Agency partnership<br></p>
                                 </div>
-                                <div class="panel-footer bgc-white-2 hidden">
-                                    <div class="btn btn-clean btn-carmine-pink btn-block btn-lg btn-sq">Read More</div>
+                                <div class="panel-footer bgc-white-2">
+                                    <div class="btn btn-clean btn-carmine-pink btn-block btn-lg btn-sq ">Read More</div>
                                 </div>
                             </a>
                         </div>
                     </div>
                     <div class="col-sm-4">
                         <div class="panel bgc-white-2">
-                            <a href="projects/theminnesotan/">
+                            <a href="projects/theminnesotan/index.html">
                                 <div class="panel-heading bgc-white">
                                     <div class="panelImageContainer" style="background-image:url(projects/theminnesotan/img/logo.png)"></div>
                                 </div>
@@ -489,15 +515,15 @@
                                     <p class="text-left mg-md">A media and premium apparel brand celebrating the ride as Minnesotans.</p>
                                     <p class="text-left mg-md">- Custom Shopify development<br>- Agency partnership<br></p>
                                 </div>
-                                <div class="panel-footer bgc-white-2 hidden">
-                                    <div class="btn btn-clean btn-carmine-pink btn-block btn-lg btn-sq">Read More</div>
+                                <div class="panel-footer bgc-white-2">
+                                    <div class="btn btn-clean btn-carmine-pink btn-block btn-lg btn-sq ">Read More</div>
                                 </div>
                             </a>
                         </div>
                     </div>
                     <div class="col-sm-4">
                         <div class="panel bgc-white-2">
-                            <a href="projects/westlingmachine/">
+                            <a href="projects/westlingmachine/index.html">
                                 <div class="panel-heading bgc-white">
                                     <div class="panelImageContainer" style="background-image:url(projects/westlingmachine/img/logo.png)"></div>
                                 </div>
@@ -506,15 +532,15 @@
                                     <p class="text-left mg-md">Westling Machine started in 2007 as a small manufacturing facility located in Milaca, Minnesota. A family owned machine shop, it started out specializing in short run and prototype machining. With the introductions of their product lines, the focus shifted to solely manufacturing their products.</p>
                                     <p class="text-left mg-md">- Custom Shopify development<br>- Agency partnership<br></p>
                                 </div>
-                                <div class="panel-footer bgc-white-2 hidden">
-                                    <div class="btn btn-clean btn-carmine-pink btn-block btn-lg btn-sq">Read More</div>
+                                <div class="panel-footer bgc-white-2">
+                                    <div class="btn btn-clean btn-carmine-pink btn-block btn-lg btn-sq ">Read More</div>
                                 </div>
                             </a>
                         </div>
                     </div>
                     <div class="col-sm-4">
                         <div class="panel bgc-white-2">
-                            <a href="projects/versechocolate/">
+                            <a href="projects/versechocolate/index.html">
                                 <div class="panel-heading bgc-white">
                                     <div class="panelImageContainer" style="background-image:url(projects/versechocolate/img/logo.png)"></div>
                                 </div>
@@ -523,15 +549,15 @@
                                     <p class="text-left mg-md">With their claim to fame of cracking the code on how to make dark chocolate less bitter without the use of sugar, Verse chocolate is the result of innumerable treks across the globe, untold hours of conversations with people from distant lands and a sincere dedication to studying the best methods of crafting chocolate.</p>
                                     <p class="text-left mg-md">- Custom Shopify development<br>- Agency partnership<br></p>
                                 </div>
-                                <div class="panel-footer bgc-white-2 hidden">
-                                    <div class="btn btn-clean btn-carmine-pink btn-block btn-lg btn-sq">Read More</div>
+                                <div class="panel-footer bgc-white-2">
+                                    <div class="btn btn-clean btn-carmine-pink btn-block btn-lg btn-sq ">Read More</div>
                                 </div>
                             </a>
                         </div>
                     </div>
                     <div class="col-sm-4">
                         <div class="panel bgc-white-2">
-                            <a href="projects/sewerskewer/">
+                            <a href="projects/sewerskewer/index.html">
                                 <div class="panel-heading bgc-white">
                                     <div class="panelImageContainer" style="background-image:url(projects/sewerskewer/img/logo.png)"></div>
                                 </div>
@@ -540,15 +566,15 @@
                                     <p class="text-left mg-md">After being frustrated with the perpetual smell of rotten eggs in their basement caused by ice buildup in their sewer vent, they searched for a solution. When they didn't find one, they made one.</p>
                                     <p class="text-left mg-md">- Custom Shopify development<br>- Agency partnership<br></p>
                                 </div>
-                                <div class="panel-footer bgc-white-2 hidden">
-                                    <div class="btn btn-clean btn-carmine-pink btn-block btn-lg btn-sq">Read More</div>
+                                <div class="panel-footer bgc-white-2">
+                                    <div class="btn btn-clean btn-carmine-pink btn-block btn-lg btn-sq ">Read More</div>
                                 </div>
                             </a>
                         </div>
                     </div>
                     <div class="col-sm-4">
                         <div class="panel bgc-white-2">
-                            <a href="projects/go-condition/">
+                            <a href="projects/go-condition/index.html">
                                 <div class="panel-heading bgc-white">
                                     <div class="panelImageContainer" style="background-image:url(projects/go-condition/img/logo.png)"></div>
                                 </div>
@@ -557,15 +583,15 @@
                                     <p class="text-left mg-md">GO CONDITION! was designed to help military personnel focus, perform, and recover under extreme conditions on the battlefield. The patented formula is now available to consumers for the first time.</p>
                                     <p class="text-left mg-md">- Custom Shopify development<br>- Agency partnership<br></p>
                                 </div>
-                                <div class="panel-footer bgc-white-2 hidden">
-                                    <div class="btn btn-clean btn-carmine-pink btn-block btn-lg btn-sq">Read More</div>
+                                <div class="panel-footer bgc-white-2">
+                                    <div class="btn btn-clean btn-carmine-pink btn-block btn-lg btn-sq ">Read More</div>
                                 </div>
                             </a>
                         </div>
                     </div>
                     <div class="col-sm-4">
                         <div class="panel bgc-white-2">
-                            <a href="projects/allthingsheroscape/">
+                            <a href="projects/allthingsheroscape/index.html">
                                 <div class="panel-heading bgc-white">
                                     <div class="panelImageContainer" style="background-image:url(projects/allthingsheroscape/img/logo.png)"></div>
                                 </div>
@@ -574,15 +600,15 @@
                                     <p class="text-left mg-md">Before opening All Things Heroscape, they were original 'scapers. They loved playing the game. Many game nights were spent hovering around a tabletop battlefield anticipating casualties between acid-spewing dragons and daring knights. It can be challenging to find a consistent supply of all things Heroscape, so they give gamers the opportunity to experience Heroscape and grow their own Heroscape collection. </p>
                                     <p class="text-left mg-md">- Custom Shopify development<br>- Agency partnership<br></p>
                                 </div>
-                                <div class="panel-footer bgc-white-2 hidden">
-                                    <div class="btn btn-clean btn-carmine-pink btn-block btn-lg btn-sq">Read More</div>
+                                <div class="panel-footer bgc-white-2">
+                                    <div class="btn btn-clean btn-carmine-pink btn-block btn-lg btn-sq ">Read More</div>
                                 </div>
                             </a>
                         </div>
                     </div>
                     <div class="col-sm-4">
                         <div class="panel bgc-white-2">
-                            <a href="projects/lov/">
+                            <a href="projects/lov/index.html">
                                 <div class="panel-heading bgc-white">
                                     <div class="panelImageContainer" style="background-image:url(projects/lov/img/logo.png)"></div>
                                 </div>
@@ -590,8 +616,8 @@
                                     <h3 class="mg-md">HejLöv</h3>
                                     <p class="text-left mg-md">- Custom Shopify development<br>- Agency partnership<br></p>
                                 </div>
-                                <div class="panel-footer bgc-white-2 hidden">
-                                    <div class="btn btn-clean btn-carmine-pink btn-block btn-lg btn-sq">Read More</div>
+                                <div class="panel-footer bgc-white-2">
+                                    <div class="btn btn-clean btn-carmine-pink btn-block btn-lg btn-sq ">Read More</div>
                                 </div>
                             </a>
                         </div>
@@ -606,94 +632,94 @@
                                     <h3 class="mg-md">Aquaroo</h3>
                                     <p class="text-left mg-md">- Custom Shopify development<br>- Agency partnership<br></p>
                                 </div>
-                                <div class="panel-footer bgc-white-2 hidden">
-                                    <div class="btn btn-clean btn-carmine-pink btn-block btn-lg btn-sq">Read More</div>
+                                <div class="panel-footer bgc-white-2">
+                                    <div class="btn btn-clean btn-carmine-pink btn-block btn-lg btn-sq ">Read More</div>
                                 </div>
                             </a>
                         </div>
                     </div>
                     <div class="col-sm-4">
                         <div class="panel bgc-white-2">
-                            <div class="panel-heading bgc-white">
-                                <a href="projects/jhcreative/jhcreative.html">
+                            <a href="projects/jhcreative/jhcreative.html">
+                                <div class="panel-heading bgc-white">
                                     <div class="panelImageContainer" style="background-image:url(projects/jhcreative/img/JH_Logo-for-Web2.png)"></div>
-                                </a>
-                            </div>
-                            <div class="panel-body">
-                                <h3 class="mg-md"><a href="projects/jhcreative/jhcreative.html">JHCreative</a></h3>
-                                <p>JHCreative is a full-service Design &amp; Branding company that specializes in Branding, Web, Print, Strategy, Consultation, and Marketing.<br><br>As a programming consultant for them I have been tasked with delving into source code originally
-written by other Engineers to troubleshoot broken code and add custom features, such as in WordPress.</p>
-                            </div>
-                            <div class="panel-footer">
-                                <a class="btn btn-clean btn-block btn-lg btn-sq btn-danger" href="projects/jhcreative/jhcreative.html" target="_blank">Read More</a>
-                            </div>
+                                </div>
+                                <div class="panel-body">
+                                    <h3 class="mg-md">JHCreative</h3>
+                                    <p>JHCreative is a full-service Design &amp; Branding company that specializes in Branding, Web, Print, Strategy, Consultation, and Marketing.<br><br>As a programming consultant for them I have been tasked with delving into source code originally
+                                        written by other Engineers to troubleshoot broken code and add custom features, such as in WordPress.</p>
+                                </div>
+                                <div class="panel-footer">
+                                    <button class="btn btn-clean btn-block btn-lg btn-sq btn-danger" target="_blank" type="button">Read More</button>
+                                </div>
+                            </a>
                         </div>
                     </div>
                     <div class="col-sm-4">
                         <div class="panel bgc-white-2">
-                            <div class="panel-heading bgc-white">
-                                <a href="projects/genivia/genivia.html">
+                            <a href="projects/genivia/genivia.html">
+                                <div class="panel-heading bgc-white">
                                     <div class="panelImageContainer" style="background-image:url(projects/genivia/img/logo.png)"></div>
-                                </a>
-                            </div>
-                            <div class="panel-body">
-                                <h3 class="mg-md"><a href="projects/genivia/genivia.html">Genivia, Inc</a></h3>
-                                <p class="text-left mg-md">Genivia is a private consulting and software development company serving all of the top 15 technology companies, most of the Fortune 500 companies, non-profits, and the US department of defense. They are best known for their gSOAP toolkit.<br><br>Read more about how I directed the custom redesign of their website, including scripting an interactive Dev Center and their logo.</p>
-                            </div>
-                            <div class="panel-footer bgc-white-2">
-                                <a class="btn btn-clean btn-block btn-lg btn-sq btn-danger" href="projects/genivia/genivia.html" target="_blank">Read More</a>
-                            </div>
+                                </div>
+                                <div class="panel-body">
+                                    <h3 class="mg-md">Genivia, Inc</h3>
+                                    <p class="text-left mg-md">Genivia is a private consulting and software development company serving all of the top 15 technology companies, most of the Fortune 500 companies, non-profits, and the US department of defense. They are best known for their gSOAP toolkit.<br><br>Read more about how I directed the custom redesign of their website, including scripting an interactive Dev Center and their logo.</p>
+                                </div>
+                                <div class="panel-footer bgc-white-2">
+                                    <button class="btn btn-clean btn-block btn-lg btn-sq btn-danger" target="_blank" type="button">Read More</button>
+                                </div>
+                            </a>
                         </div>
                     </div>
                     <div class="col-sm-4">
                         <div class="panel bgc-white-2">
-                            <div class="panel-heading bgc-white">
-                                <a href="projects/controlflo/controlflo.html">
+                            <a href="projects/controlflo/controlflo.html">
+                                <div class="panel-heading bgc-white">
                                     <div class="panelImageContainer" style="background-image:url(projects/controlflo/img/logo.png)"></div>
-                                </a>
-                            </div>
-                            <div class="panel-body">
-                                <h3 class="mg-md"><a href="projects/controlflo/controlflo.html">Control Flo medical</a></h3>
-                                <p>Control Flo Medical, LLC addresses the global market needs of improved healthcare in treating urinary incontinence and urinary retention.<br> <br> Read more about how Control Flo Medical consulted with me to create biomedical / scientific visualizations for the innovative ResQ Catheter.</p>
-                            </div>
-                            <div class="panel-footer">
-                                <a class="btn btn-clean btn-block btn-lg btn-sq btn-danger" href="projects/controlflo/controlflo.html" target="_blank">Read More</a>
-                            </div>
+                                </div>
+                                <div class="panel-body">
+                                    <h3 class="mg-md">Control Flo medical</h3>
+                                    <p>Control Flo Medical, LLC addresses the global market needs of improved healthcare in treating urinary incontinence and urinary retention.<br> <br> Read more about how Control Flo Medical consulted with me to create biomedical / scientific visualizations for the innovative ResQ Catheter.</p>
+                                </div>
+                                <div class="panel-footer">
+                                    <button class="btn btn-clean btn-block btn-lg btn-sq btn-danger" target="_blank" type="button">Read More</button>
+                                </div>
+                            </a>
                         </div>
                     </div>
                     <div class="col-sm-4">
                         <div class="panel bgc-white-2">
-                            <div class="panel-heading bgc-white">
-                                <a href="projects/datamaxx/datamaxx.html">
+                            <a href="projects/datamaxx/datamaxx.html">
+                                <div class="panel-heading bgc-white">
                                     <div class="panelImageContainer" style="background-image:url(projects/datamaxx/img/logo.png)"></div>
-                                </a>
-                            </div>
-                            <div class="panel-body">
-                                <h3 class="mg-md tc-dark-jungle-green"><a href="projects/datamaxx/datamaxx.html">Datamaxx Group</a></h3>
-                                <p class="mg-md">Datamaxx is one of the largest providers of advanced communications, data access, information sharing, enterprise intelligence, and access control solutions. They serve more than 70 percent of the criminal justice information market, with more than 750,000
-end users worldwide, and such distinguished customers as the Federal Bureau of Investigation, the New York City Police Department, and the US Department of State.<br><br>Read more about how I built the internal admin client for their
-GreenLight product.</p>
-                            </div>
-                            <div class="panel-footer">
-                                <a class="btn btn-clean btn-block btn-lg btn-sq btn-danger" href="projects/datamaxx/datamaxx.html" target="_blank">Read More</a>
-                            </div>
+                                </div>
+                                <div class="panel-body">
+                                    <h3 class="mg-md tc-dark-jungle-green">Datamaxx Group</h3>
+                                    <p class="mg-md">Datamaxx is one of the largest providers of advanced communications, data access, information sharing, enterprise intelligence, and access control solutions. They serve more than 70 percent of the criminal justice information market, with more than 750,000
+                                        end users worldwide, and such distinguished customers as the Federal Bureau of Investigation, the New York City Police Department, and the US Department of State.<br><br>Read more about how I built the internal admin client for their
+                                        GreenLight product.</p>
+                                </div>
+                                <div class="panel-footer">
+                                    <button class="btn btn-clean btn-block btn-lg btn-sq btn-danger" target="_blank" type="button">Read More</button>
+                                </div>
+                            </a>
                         </div>
                     </div>
                     <div class="col-sm-4">
                         <div class="panel bgc-white-2">
-                            <div class="panel-heading bgc-white">
-                                <a href="projects/lobbyq/lobbyq-2.html">
+                            <a href="projects/lobbyq/lobbyq-2.html">
+                                <div class="panel-heading bgc-white">
                                     <div class="panelImageContainer" style="background-image:url(projects/lobbyq/img/lq_l_q_2.png" width="100%)"></div>
-                                </a>
-                            </div>
-                            <div class="panel-body">
-                                <h3 class="mg-md tc-dark-jungle-green"><a href="projects/lobbyq/lobbyq-2.html">LobbyQ</a></h3>
-                                <p>LobbyQ (formerly AstroQueue) streamlines customer intake. It regulates walk-in traffic, collects customer information, and helps offices understand their customers and themselves through visual metrics &amp; analytics. It is a digital waiting list that
-        teams love to use.</p>
-                            </div>
-                            <div class="panel-footer">
-                                <a class="btn btn-clean btn-block btn-lg btn-sq btn-danger" href="projects/lobbyq/lobbyq-2.html" target="_blank">Read More</a>
-                            </div>
+                                </div>
+                                <div class="panel-body">
+                                    <h3 class="mg-md tc-dark-jungle-green">LobbyQ</h3>
+                                    <p>LobbyQ (formerly AstroQueue) streamlines customer intake. It regulates walk-in traffic, collects customer information, and helps offices understand their customers and themselves through visual metrics &amp; analytics. It is a digital waiting list that
+                                        teams love to use.</p>
+                                </div>
+                                <div class="panel-footer">
+                                    <button class="btn btn-clean btn-block btn-lg btn-sq btn-danger" target="_blank" type="button">Read More</button>
+                                </div>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -728,7 +754,7 @@ GreenLight product.</p>
                             </div>
                             <div class="panel-body">
                                 <h4 class="mg-md text-center ">Alumni Spotlight</h4>
-                                <h6 class="mg-md text-center ">Harvard Medical School <br>2021</h6>
+                                <h6 class="mg-md text-center ">Harvard University <br>2021</h6>
                                 <h5 class="mg-md ">
                                         Lawrence came to the program with a strong sense of narrative already under his belt. 
                                         But he knew that even with a couple viral articles and a TEDx talk, he needed to work on his approach to target a wider audience about niche issues.  </h5>
