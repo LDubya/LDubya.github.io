@@ -112,3 +112,9 @@ img.heroImage{
     /* width: 1300px; */
     /* max-width: 20px; */
 }
+
+@media (max-width : 767px) {
+    #page-head h1{
+        font-size: 75px;
+    }
+}

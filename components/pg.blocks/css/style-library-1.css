@@ -924,12 +924,13 @@ p .btn {
 
 /* Button PRIMARY */
 .btn.btn-primary {
-    background: #1abc9c;
-    box-shadow: 0 2px #16a085;
+    background: #000;
+    box-shadow: 0 2px #1e1e1e;
 }
 
 .btn.btn-primary:hover {
-    background: #16a085;
+    background: #1e1e1e;
+    color: #fff;
 }
 
 /* Button WARNING */
