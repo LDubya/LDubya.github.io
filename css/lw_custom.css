@@ -118,3 +118,11 @@ img.heroImage{
         font-size: 75px;
     }
 }
+
+a{
+    color: #E74C3C !important;
+}
+a:hover{
+    color: #ffffff !important;
+    text-shadow: 0px 0px 5px #c1c1c1;
+}
