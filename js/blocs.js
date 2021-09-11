@@ -3,6 +3,7 @@ $(window).load(function()
 {
 	checkHero(); // Check hero height is correct
 	animateWhenVisible();  // Activate animation when visible	
+	handleBlankLinks();
 });
 
 // Page ready
@@ -227,5 +228,11 @@ function setUpLightBox()
 		{
 			$('.prev-lightbox').show();
 		}
+	});
+}
+
+function handleBlankLinks(){
+	$(".gridcontainer a[href*='#']").click(function (event) {
+		event.preventDefault ? event.preventDefault() : event.returnValue = false;
 	});
 }
