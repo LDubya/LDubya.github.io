@@ -1531,11 +1531,6 @@ fieldset[disabled] .form-control {
     border-bottom: 4px solid #85d6de !important;
 }
 
-.nav > li > a:hover,
-.nav > li > a:focus {
-    outline: 0;
-}
-
 .tab-content {
     padding-left: 0;
     padding-right: 0;

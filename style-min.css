@@ -16,11 +16,6 @@ a:hover {
     cursor: pointer;
 }
 
-a,
-button {
-    outline: none!important;
-}
-
 /* Prevent ugly blue glow on chrome and safari */
 a {
     color: lor;
@@ -561,11 +556,6 @@ img.mg-lg {
 .btn-d:focus {
     color: #FFF!important;
     background: rgba(0,0,0,.3);
-}
-
-/* Prevent ugly blue glow on chrome and safari */
-button {
-    outline: none!important;
 }
 
 .btn-sq {

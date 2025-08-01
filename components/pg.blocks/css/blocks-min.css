@@ -91,10 +91,6 @@ Version: 1.0
 
 #header-1 .main-nav .nav .dropdown-menu
 {
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    -ms-border-radius: 4px;
-    -o-border-radius: 4px;
     border-radius: 4px;
     -moz-background-clip: padding;
     -webkit-background-clip: padding-box;
@@ -189,8 +185,6 @@ Version: 1.0
     #header-1 .navbar-collapse
     {
         border-top: none;
-        -webkit-box-shadow: none;
-        -moz-box-shadow: none;
         box-shadow: none;
         width: 100%;
         top: 80px;
@@ -286,8 +280,6 @@ Version: 1.0
 {
     max-height: inherit;
     border-top: none;
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
     box-shadow: none;
 }
 
@@ -361,10 +353,6 @@ Version: 1.0
 {
     #header-2 .main-nav .nav .dropdown-menu
     {
-        -webkit-border-radius: 4px;
-        -moz-border-radius: 4px;
-        -ms-border-radius: 4px;
-        -o-border-radius: 4px;
         border-radius: 4px;
         -moz-background-clip: padding;
         -webkit-background-clip: padding-box;
@@ -590,9 +578,6 @@ Version: 1.0
 #header-3 .hero
 {
     background: url('../images/header-3-bg.jpg') no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
     padding: 50px 0 300px 0;
     height: auto;
@@ -651,9 +636,6 @@ Version: 1.0
 .promo-1
 {
     background: url("../images/water-bg.jpg") center top no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
     padding: 140px 0;
 }
@@ -778,9 +760,6 @@ Version: 1.0
 .promo-3
 {
     background: url("../images/star-sky.jpg") center top no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
     background-attachment: fixed;
     padding: 140px 0;
@@ -846,9 +825,6 @@ Version: 1.0
 .content-1-1
 {
     background: url("../images/typewriter-bg.jpg") center top no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
 }
 
@@ -1008,9 +984,6 @@ Version: 1.0
 .content-1-4 .image-container .background-image-holder
 {
     background: #cccccc url('../images/dark-logs-bg.jpg') no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
     height: 100%;
 }
@@ -1107,8 +1080,6 @@ Version: 1.0
 {
     max-width: 140px;
     opacity: 0.3;
-    -webkit-transition: all .3s ease;
-    -moz-transition: all .3s ease;
     transition: all .3s ease;
     -webkit-backface-visibility: none;
     height: auto;
@@ -1204,8 +1175,6 @@ Version: 1.0
 .content-1-7 img
 {
     max-width: 140px;
-    -webkit-transition: all .3s ease;
-    -moz-transition: all .3s ease;
     transition: all .3s ease;
     opacity: 0.4;
     height: auto;
@@ -1371,8 +1340,6 @@ Version: 1.0
     vertical-align: middle;
     position: relative;
     margin: 0 auto 50px;
-    -webkit-transition: box-shadow 0.2s;
-    -moz-transition: box-shadow 0.2s;
     transition: box-shadow 0.2s;
 }
 
@@ -1762,8 +1729,6 @@ Version: 1.0
     position: absolute;
     left: 50%;
     top: 50%;
-    -webkit-transform: translateY(-50%) translateX(-50%);
-    -moz-transform: translateY(-50%) translateX(-50%);
     transform: translateY(-50%) translateX(-50%);
 }
 
@@ -1787,8 +1752,6 @@ Version: 1.0
     top: 0px;
     background-color: rgba(44, 62, 80, 0.6);
     text-align: center;
-    -webkit-transition: all .5s ease;
-    -moz-transition: all .5s ease;
     transition: all .5s ease;
     opacity: 0;
     padding: 0 25px;
@@ -1813,19 +1776,13 @@ Version: 1.0
 
 .content-2-9 .project .hover-state .align-vertical
 {
-    -webkit-transform: translate3d(0, 20px, 0);
-    -moz-transform: translate3d(0, 20px, 0);
     transform: translate3d(0, 20px, 0);
-    -webkit-transition: all .5s ease;
-    -moz-transition: all .5s ease;
     transition: all .5s ease;
     opacity: 0;
 }
 
 .content-2-9 .project:hover .align-vertical
 {
-    -webkit-transform: translate3d(0, 0px, 0);
-    -moz-transform: translate3d(0, 0px, 0);
     transform: translate3d(0, 0px, 0);
     opacity: 1;
 }
@@ -2471,9 +2428,6 @@ Version: 1.0
 .content-3-10 .image-container .background-image-holder
 {
     background: url('../images/low-poly-1.jpg') no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
     height: 100%;
 }
@@ -2549,9 +2503,6 @@ Version: 1.0
 .content-3-11 .image-container .background-image-holder
 {
     background: url('../images/low-poly-2.jpg') no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
     height: 100%;
 }
@@ -2748,12 +2699,9 @@ Version: 1.0
 /*---------------*/
 
 figure.effect-lily img {
-	width: -webkit-calc(100% + 50px);
 	width: calc(100% + 50px);
 	opacity: 0.5;
-	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
-	-webkit-transform: translate3d(-40px,0, 0);
 	transform: translate3d(-40px,0,0);
 }
 
@@ -2768,13 +2716,11 @@ figure.effect-lily figcaption
 figure.effect-lily h2,
 figure.effect-lily p
 {
-    -webkit-transform: translate3d(0,40px,0);
     transform: translate3d(0,40px,0);
 }
 
 figure.effect-lily h2
 {
-    -webkit-transition: -webkit-transform 0.35s;
     transition: transform 0.35s;
 }
 
@@ -2782,7 +2728,6 @@ figure.effect-lily p
 {
     color: rgba(255,255,255,0.6);
     opacity: 0;
-    -webkit-transition: opacity 0.2s, -webkit-transform 0.35s;
     transition: opacity 0.2s, transform 0.35s;
 }
 
@@ -2796,15 +2741,12 @@ figure.effect-lily:hover img,
 figure.effect-lily:hover h2,
 figure.effect-lily:hover p
 {
-    -webkit-transform: translate3d(0,0,0);
     transform: translate3d(0,0,0);
 }
 
 figure.effect-lily:hover p
 {
-    -webkit-transition-delay: 0.05s;
     transition-delay: 0.05s;
-    -webkit-transition-duration: 0.35s;
     transition-duration: 0.35s;
 }
 
@@ -2866,7 +2808,6 @@ Version: 1.0
 .gallery-item
 {
     overflow: hidden;
-    -webkit-transition: all 0.2s ease;
     transition: all 0.2s ease;
     border-radius: 3px;
 }
@@ -2884,7 +2825,6 @@ Version: 1.0
 
 .gallery-item .gallery-thumb img
 {
-    -webkit-transition: all 0.2s ease;
     transition: all 0.2s ease;
     width: 100%;
 }
@@ -2905,7 +2845,6 @@ Version: 1.0
     left: 0;
     opacity: 0;
     filter: alpha(opacity=0);
-    -webkit-transition: all 0.2s ease;
     transition: all 0.2s ease;
 }
 
@@ -2941,7 +2880,6 @@ Version: 1.0
 {
     right: 0;
     margin-right: -45px;
-    -webkit-transition: all 0.2s ease;
     transition: all 0.2s ease;
 }
 
@@ -2949,7 +2887,6 @@ Version: 1.0
 {
     left: 0;
     margin-left: -45px;
-    -webkit-transition: all 0.2s ease;
     transition: all 0.2s ease;
 }
 
@@ -3042,28 +2979,16 @@ Version: 1.0
 .isotope,
 .isotope .isotope-item
 {
-    -webkit-transition-duration: 0.8s;
-    -moz-transition-duration: 0.8s;
-    -ms-transition-duration: 0.8s;
-    -o-transition-duration: 0.8s;
     transition-duration: 0.8s;
 }
 
 .isotope
 {
-    -webkit-transition-property: height, width;
-    -moz-transition-property: height, width;
-    -ms-transition-property: height, width;
-    -o-transition-property: height, width;
     transition-property: height, width;
 }
 
 .isotope .isotope-item
 {
-    -webkit-transition-property: -webkit-transform, opacity;
-    -moz-transition-property: -moz-transform, opacity;
-    -ms-transition-property: -ms-transform, opacity;
-    -o-transition-property: -o-transform, opacity;
     transition-property: transform, opacity;
 }
 
@@ -3073,10 +2998,6 @@ Version: 1.0
 .isotope.no-transition .isotope-item,
 .isotope .isotope-item.no-transition
 {
-    -webkit-transition-duration: 0s;
-    -moz-transition-duration: 0s;
-    -ms-transition-duration: 0s;
-    -o-transition-duration: 0s;
     transition-duration: 0s;
 }
 
@@ -3233,7 +3154,6 @@ Version: 1.0
     max-width: 500px;
     margin: 0 auto;
     overflow: hidden;
-    -webkit-transition: all 0.2s ease;
     transition: all 0.2s ease;
 }
 
@@ -3245,7 +3165,6 @@ Version: 1.0
 
 .team-2 .team-wrapper .team-item .team-thumb img
 {
-    -webkit-transition: all 0.2s ease;
     transition: all 0.2s ease;
     width: 100%;
 }
@@ -3266,7 +3185,6 @@ Version: 1.0
     left: 0;
     opacity: 0;
     filter: alpha(opacity=0);
-    -webkit-transition: all 0.2s ease;
     transition: all 0.2s ease;
 }
 
@@ -3293,7 +3211,6 @@ Version: 1.0
     top: 0;
     left: 45%;
     margin-top: -50px;
-    -webkit-transition: all 0.2s ease;
     transition: all 0.2s ease;
 }
 
@@ -3609,8 +3526,6 @@ Version: 1.0
 {
     max-width: 500px;
     margin: 0 auto 40px auto;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
     border-radius: 4px;
 }
 
