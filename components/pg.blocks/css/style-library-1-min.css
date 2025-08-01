@@ -803,9 +803,6 @@ a {
 a:hover {
     color: #16a085;
     text-decoration: none;
-    -moz-transition: all 0.3s ease;
-    -webkit-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
 
@@ -896,7 +893,6 @@ img {
 .btn-xl {
     padding: 18px 30px;
     font-size: 24px;
-    -webkit-border-radius: 6px;
     border-radius: 6px;
 }
 
@@ -1051,9 +1047,6 @@ p .btn {
 
 button:hover {
     text-decoration: none;
-    -moz-transition: all 0.3s ease;
-    -webkit-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
 
@@ -1085,9 +1078,6 @@ button:hover {
     width: 34px;
     height: 34px;
     font-size: 18px;
-    -webkit-transition: all 200ms ease-out;
-    -moz-transition: all 200ms ease-out;
-    -o-transition: all 200ms ease-out;
     transition: all 200ms ease-out;
 }
 
@@ -1107,9 +1097,6 @@ button:hover {
     height: 0;
     top: 0;
     left: 0;
-    -webkit-transition: all 200ms ease-out;
-    -moz-transition: all 200ms ease-out;
-    -o-transition: all 200ms ease-out;
     transition: all 200ms ease-out;
 }
 
@@ -1168,9 +1155,7 @@ fieldset legend {
     height: 40px;
     -webkit-appearance: none;
     border-radius: 6px;
-    -webkit-box-shadow: none;
     box-shadow: none;
-    -webkit-transition: border .25s linear, color .25s linear, background-color .25s linear;
     transition: border .25s linear, color .25s linear, background-color .25s linear;
 }
 
@@ -1183,7 +1168,6 @@ fieldset legend {
 .form-control:focus {
     border-color: #1abc9c;
     outline: 0;
-    -webkit-box-shadow: none;
     box-shadow: none;
 }
 
@@ -1218,7 +1202,6 @@ fieldset[disabled] .form-control {
 .has-success .form-control {
     color: #2ecc71;
     border-color: #2ecc71;
-    -webkit-box-shadow: none;
     box-shadow: none;
 }
 
@@ -1246,7 +1229,6 @@ fieldset[disabled] .form-control {
 
 .has-success .form-control:focus {
     border-color: #2ecc71;
-    -webkit-box-shadow: none;
     box-shadow: none;
 }
 
@@ -1264,7 +1246,6 @@ fieldset[disabled] .form-control {
 .has-warning .form-control {
     color: #f1c40f;
     border-color: #f1c40f;
-    -webkit-box-shadow: none;
     box-shadow: none;
 }
 
@@ -1292,7 +1273,6 @@ fieldset[disabled] .form-control {
 
 .has-warning .form-control:focus {
     border-color: #f1c40f;
-    -webkit-box-shadow: none;
     box-shadow: none;
 }
 
@@ -1310,7 +1290,6 @@ fieldset[disabled] .form-control {
 .has-error .form-control {
     color: #e74c3c;
     border-color: #e74c3c;
-    -webkit-box-shadow: none;
     box-shadow: none;
 }
 
@@ -1338,7 +1317,6 @@ fieldset[disabled] .form-control {
 
 .has-error .form-control:focus {
     border-color: #e74c3c;
-    -webkit-box-shadow: none;
     box-shadow: none;
 }
 
@@ -1517,8 +1495,6 @@ fieldset[disabled] .form-control {
     font-style: normal;
     text-transform: uppercase;
     color: #737c85;
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
     border-radius: 0;
     border: none !important;
     border-bottom: 4px solid transparent !important;
